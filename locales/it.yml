@@ -1,0 +1,2143 @@
+it:
+  about:
+    disclaimer: Stockflare fornisce informazioni, non consigli. Stockflare non avanza suggerimenti. Ogni riferimento a "Acquista", "Vendi", "Tieni" o "Target Price" per le azioni riflettono l'opinione generale di "Wall Street".
+    from: Dati da
+    links:
+      about: Su di Noi
+      blog: Blog
+      faq: FAQ
+      jobs: Opportunità di Lavoro
+      landing: È la tua prima volta qui?
+      learn: Impara
+      playground: Ricreazione
+      privacy: Informativa sulla Privacy
+      tos: Condizioni Generali
+    pricingData: Tutti i prezzi di chiusura di ieri.
+    title: Su Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Azioni eseguibili
+        gain: Guadagno sui 7 Anni
+        name: Nome della Compagnia
+        price: Oggi
+        purchased: il Prezzo d'Acquisto
+        rating: Classificazione a Stelle
+        shares: numero di azioni
+      empty: Nel conto non sono presenti azioni
+      refresh: aggiorna il tuo conto
+      rows:
+        gain:
+          gain: guadagno
+      title: Disaggregazione del mio portafoglio
+    broker:
+      unlink: scollega il conto intermediario e cancella tutte le informazioni relative al conto
+      unlinkError: non è stato possibile scollegare il tuo conto
+    danger:
+      button: 'scollega l''intermediario '
+      description: Se scolleghi il tuo intermediario verranno eliminati i relativi dettagli archiviati su Stockflare. Cancelleremo tutte le informazioni relative ai conti e alle posizioni, tuttavia conserveremo i dettagli di tutti gli ordini che hai piazzato tramite Stockflare ai fini di eventuali controlli.
+      title: Danger Zone
+    orders:
+      buying: Acquisto a %n
+      columns:
+        action: Azioni eseguibili
+        name: Nome della Compagnia
+        purchased: il Prezzo d'Acquisto
+        sell: Prezzo di vendita
+        shares: numero di azioni
+        total: Totale
+      empty: Non esistono ordini in questo conto
+      limit: Prezzo limite %n
+      market: Prezzo stop %n
+      selling: Vendita a %n
+      shares: '%n quote'
+      title: Negoziazioni
+    pageDescription: Nella pagina del tuo conto sono riportati i dettagli dei titoli presenti nel tuo portafoglio e le intermediazioni connesse, così come i dettagli di tutti gli ordini piazzati tramite Stockflare.
+    pageTitle: Il mio conto di intermediazione collegato
+    power: Potere d'Acquisto
+  alerts:
+    count: '%n Avvisi'
+    headers:
+      today: Avvisi Recenti
+    messages:
+      gain:
+        negative: Il guadagno previsto a lungo termine è diminuito da %previous_gain% a %latest_gain%
+        positive: Il guadagno previsto a lungo termine è aumentato da %previous_gain% a %latest_gain%
+      movement:
+        negative: Il prezzo si è abbassato di %price_change% da %previous_price a %latest_price.
+        positive: Il prezzo si è alzato di %price_change% da %previous_price a %latest_price.
+      none: Nessun Avviso Corrente
+      one_month_eps_sentiment:
+        positive: Durante l'ultimo mese i profitti previsti delle azioni sono aumentati più velocemente del loro prezzo.
+      one_month_price_sentiment:
+        negative: Durante l'ultimo mese il prezzo delle azioni è diminuito più rapidamente rispetto al ricavo previsto.
+      rating:
+        negative: Persa una stella. Azione declassata a %latest_rating stelle.
+        positive: Guadagnata un'altra stella. Azione promossa a %latest_rating stelle.
+      recommendation:
+        negative: Wall Street ha declassato %previous_recommendation_text a %latest_recommendation_text.
+        positive: Wall Street ha promosso %previous_recommendation_text a %latest_recommendation_text.
+      three_month_eps_sentiment:
+        positive: Durante gli ultimi tre mesi i profitti previsti delle azioni sono aumentati più velocemente del loro prezzo.
+      three_month_price_sentiment:
+        negative: Durante gli ultimi tre mesi il prezzo delle azioni è diminuito più rapidamente rispetto al ricavo previsto.
+      upside:
+        positive: Ha guadagnato una stella per aver avuto un rialzo di %latest_upside al Target Price.
+      volume:
+        negative: Volume degli scambi eccessivamente elevato.
+    pageTitle: I Miei Avvisi
+    timeAgo: '%n ore fa'
+  appender:
+    add: Aggiungi un'Azione
+    noMatches: 0 Corrispondenze
+    pressEnter: Premere Invio per Aggiungere
+    search: Cerca
+  appenders:
+    watchlist:
+      create: Nuova Lista
+  brokerage:
+    brokerages:
+      drivewealth: Drivewealth
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_king: Trade King
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: Complimenti! Il tuo conto è connesso
+        connecting: Verifica della sicurezza… Connessione in corso…
+        detail: Stiamo creando una connessione sicura al tuo conto
+        login: Verifica dei dati di accesso
+      details:
+        button: Accesso e connessione
+        conditions: Cliccando su "Accesso e connessione" accetti le condizioni di servizio di Stockflare.
+        id: ID Utente del conto di intermediazione
+        password: Password del conto di intermediazione
+        username: Nome Utente del conto di intermediazione
+      final:
+        description: Vuoi compiere subito un'operazione? O eseguire l'analisi intelligente del tuo portafoglio?
+        title: Negoziazioni attivate
+        to_portfolio: Vai al Portafoglio
+        to_stock: Negozia %n ?
+      help:
+        assistance:
+          description: Se hai bisogno di aiuto per collegare il tuo conto, o se hai domande sul nostro servizio, clicca qui.
+          title: Serve aiuto?
+        faq:
+          description: Qui puoi trovare alcune fra le principali domande che ci vengono rivolte.
+          questions:
+            compare: Come si confrontano intermediazioni diverse?
+            fees: Ci sono commissioni?
+            secure: Quanto è sicura la connessione?
+          title: FAQ - Domande Frequenti
+        no_brokerage:
+          description: 'Leggi questo articolo: qui confrontiamo tutti i servizi di intermediazione ai quali siamo collegati.'
+          title: Nessuna intermediazione? Nessun problema.
+      security:
+        button: Completato
+      select:
+        titles:
+          buttons:
+            connect: Connettiti
+            use: Utilizza
+          existing: Connettiti al conto di intermediazione
+          new: Aggiungi nuovo conto di intermediazione
+          sessions: Già connesso
+      steps:
+        choose: Scegli l'intermediazione
+        details: I tuoi dati
+        final: Completato
+        security: Domande di sicurezza
+      teaser:
+        alerts:
+          description: Non hai abbastanza tempo per seguire il tuo portafoglio? Le nostre notifiche intelligenti ti aiuteranno a tenere d'occhio i tuoi investimenti.
+          title: Attiva le nostre notifiche intelligenti
+        encryption:
+          description: Noi di Stockflare criptiamo tutti i dati e lavoriamo esclusivamente con i provider di sicurezza più scrupolosi, come Amazon Web Services.
+          title: Dati protetti con crittografia per la sicurezza del servizio e dei nostri utenti
+        trade:
+          description: Hai trovato un grande titolo? Connetti il tuo conto di intermediazione e procedi alle operazioni direttamente da Stockflare in modo facile e veloce.
+          title: Opera tramite Stockflare
+      title: Scegli l'intermediazione
+    flash:
+      positions_not_refreshed: Non è stato possibile contattare il vostro intermediario per aggiornare i vostri titoli
+      positions_refreshed: I vostri titoli di portafoglio sono stati aggiornati
+      positions_refreshing: Aggiornamento dei titoli di portafoglio
+    portfolio:
+      alerts:
+        heading: n% notifiche
+      danger_zone:
+        button: Disconnetti il conto
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
+        warning: La disconnessione del tuo conto di intermediazione eliminerà tutti i tuoi dati archiviati sui nostri server.
+      headings:
+        power: Potere d'Acquisto
+      notes:
+        heading: n% appunti
+      table:
+        status: Status
+        statuses:
+          completed: Completato
+          failed: Non riuscito
+          filling: In lavorazione
+          pending: In attesa
+        trades: Negoziazioni in corso
+      unsupported: '%n non supportate'
+      untracked: Non supportato da Stockflare
+    trade:
+      step_one:
+        buying:
+          price: Attualmente a %n
+          title: Compra
+        selling:
+          price: Attualmente a %n
+          title: Vendi
+        title: Comprare o vendere?
+        tooltip: 'Le operazioni sono preimpostate a prezzo limitato, non di mercato, con il limite regolato sullo scarto denaro-lettera. Se vuoi comprare o vendere senza considerare il prezzo, clicca su Impostazioni Avanzate e cambia il tipo di ordine. Le operazioni sono preimpostate anche per scadere alla fine della giornata. Se vuoi che un ordine resti aperto indefinitamente, vai su Impostazioni Avanzate e scegli "Valido-fino-a-revoca". Nota: noi non offriamo i seguenti tipi di ordini: "Compra-per-coprire" o "Vendita-allo-scoperto". Non forniamo neppure ordini "Limite di stop" o "Stop-Market". Se sei interessato a queste opzioni, sei pregato di comunicarcelo.'
+      step_three:
+        button:
+          buy: Compra azioni (%n)
+          sell: Vendi azioni (%n)
+        errors:
+          buying: il prezzo limite di acquisto da te indicato di %n è più basso del prezzo di vendita corrente di %n
+          selling: il prezzo limite di vendita da te indicato di %n è più alto del prezzo di acquisto corrente di %n
+        table:
+          brokerage: Conto di intermediazione
+          cost: Investimento stimato
+          expiration: Scadenza
+          fees: Commissioni stimate
+          return: Ricavi stimati
+          shares: Quantità di azioni
+          ticker: Sigla di negoziazione
+          type: Tipo di ordine
+        title: Anteprima dell'ordine
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: Scade alla fine della giornata
+              gtc: Ordine valido fino alla tua revoca
+            prompt: Scadenza
+            tooltip: Gli ordini sono preimpostati per avere validità giornaliera. Se preferisci, puoi modificarli in GTC, o validi fino alla revoca.
+          order_type:
+            options:
+              limit: Ordine limite
+              market: Ordine a prezzo di mercato
+            prompt: Tipo di ordine
+            tooltip: L'impostazione è predefinita su ordine limite, ma se vuoi operare a mercato, a prescindere dal prezzo, qui puoi scegliere questa opzione.
+            warning: Se scegli un ordine "A mercato", opererai a prescindere dal prezzo. In altre parole non imposterai un prezzo massimo per vendere o un prezzo minimo per comprare
+          prompt: Mostra le impostazioni avanzate
+          unprompt: Nascondi le impostazioni avanzate
+        button: Anteprima dell'ordine
+        price:
+          buy: Compra a / a meno di
+          sell: Vendi a / a più di
+          tooltip: Questo è un ordine limite, preimpostato sullo scarto denaro-lettera. Clicca su Impostazioni Avanzate se vuoi piazzare un ordine a mercato o un ordine limite che sia "valido fino alla chiusura".
+        quantity:
+          note_no_shares: Attualmente non possiedi azioni %n
+          note_own_shares: Oggi possiedi %n azioni %n
+          prompt: 'Quantità '
+        title: Quantità e Prezzo
+      thetrade:
+        description: Il tuo ordine è in corso di esecuzione
+        title:
+          buy: Ordine di acquisto in esecuzione
+          sell: Ordine di vendita in esecuzione
+        to_portfolio: Vai al Portafoglio
+        to_stocks: Vai ai Titoli
+        update:
+          no_success: Il tuo ordine non è ancora completo. Quando sarà pronto ti invieremo un'e-mail per avvisarti.
+          success: Congratulazioni. Il tuo ordine è stato completato. L'operazione è stata effettuata.
+      title: Negozia %n
+      tradeupdate:
+        title: Aggiorna il tuo ordine per %n
+  common:
+    countries:
+      afg: Afghanistan
+      ago: Angola
+      aia: Anguilla
+      ala: Isole Åland
+      alb: Albania
+      and: Andorra
+      are: Emirati Arabi Uniti
+      arg: Argentina
+      arm: Armenia
+      asm: Samoa Americane
+      ata: Antartide
+      atf: Terre australi e antartiche francesi
+      atg: Antigua e Barbuda
+      aus: Australia
+      aut: Austria
+      aze: Azerbaigian
+      bdi: Burundi
+      bel: 'Belgio '
+      ben: Benin
+      bes: Isole BES
+      bfa: Burkina Faso
+      bgd: Bangladesh
+      bgr: Bulgaria
+      bhr: Bahrein
+      bhs: Bahamas
+      bih: Bosnia ed Erzegovina
+      blm: Saint-Barthélemy
+      blr: Bielorussia
+      blz: Belize
+      bmu: Bermuda
+      bol: Bolivia
+      bra: Brasile
+      brb: Barbados
+      brn: Brunei
+      btn: Buthan
+      bvt: Isola Bouvet
+      bwa: Botswana
+      caf: Repubblica Centrafricana
+      can: Canada
+      cck: Isole Cocos (Keeling)
+      che: Svizzera
+      chl: Cile
+      chn: Cina
+      civ: Costa l'Avorio
+      cmr: Camerun
+      cod: Repubblica Democratica del Congo
+      cog: Congo
+      cok: Isole Cook
+      col: Colombia
+      com: Comore
+      cpv: Capo Verde
+      cri: Costa Rica
+      cub: Cuba
+      cuw: Curaçao
+      cxr: Isola di Natale
+      cym: Isole Cayman
+      cyp: Cipro
+      cze: Repubblica Ceca
+      deu: Germania
+      dji: Gibuti
+      dma: Dominica
+      dnk: Danimarca
+      dom: Repubblica Dominicana
+      dza: Algeria
+      ecu: Ecuador
+      egy: Egitto
+      eri: Eritrea
+      esh: Sahara Occidentale
+      esp: Spagna
+      est: Estonia
+      eth: Etiopia
+      fin: Finlandia
+      fji: Figi
+      flk: Isole Falkland
+      fra: Francia
+      fro: Isole Faroe
+      fsm: Micronesia
+      gab: Gabon
+      gbr: Regno Unito
+      geo: Georgia
+      ggy: Guernsey
+      gha: Ghana
+      gib: Gibilterra
+      gin: Guinea
+      glp: Guadalupa
+      gmb: Gambia
+      gnb: Guinea-Bissau
+      gnq: Guinea Equatoriale
+      grc: Grecia
+      grd: Grenada
+      grl: Groenlandia
+      gtm: Guatemala
+      guf: Guyana Francese
+      gum: Guam
+      guy: Guyana
+      hkg: Hong Kong
+      hmd: Isole Heard e McDonald
+      hnd: Honduras
+      hrv: Croazia
+      hti: Haiti
+      hun: Ungheria
+      idn: Indonesia
+      imn: Isola di Man
+      ind: India
+      iot: Territorio britannico dell'Oceano Indiano
+      irl: Irlanda
+      irn: Iran
+      irq: Iraq
+      isl: Islanda
+      isr: Israele
+      ita: Italia
+      jam: Giamaica
+      jey: Jersey
+      jor: Giordania
+      jpn: Giappone
+      kaz: Kazakistan
+      ken: Kenya
+      kgz: Kirghizistan
+      khm: Cambogia
+      kir: Kiribati
+      kna: Saint Kitts e Nevis
+      kor: Corea del Sud
+      kwt: Kuwait
+      lao: Laos
+      lbn: Libano
+      lbr: Liberia
+      lby: Libia
+      lca: Santa Lucia
+      lie: Liechtenstein
+      lka: Sri Lanka
+      lso: Lesotho
+      ltu: Lituania
+      lux: Lussemburgo
+      lva: Lettonia
+      mac: Macao
+      maf: Saint Martin
+      mar: Marocco
+      mco: Monaco
+      mda: Moldavia
+      mdg: Madagascar
+      mdv: Maldive
+      mex: Messico
+      mhl: Isole Marshall
+      mkd: Macedonia
+      mli: Mali
+      mlt: Malta
+      mmr: Birmania
+      mne: Montenegro
+      mng: Mongolia
+      mnp: Isole Marianne Settentrionali
+      moz: Mozambico
+      mrt: Mauritania
+      msr: Montserrat
+      mtq: Martinica
+      mus: Mauritius
+      mwi: Malawi
+      mys: Malesia
+      myt: Mayotte
+      nam: Namibia
+      ncl: Nuova Caledonia
+      ner: Niger
+      nfk: Isola Norfolk
+      nga: Nigeria
+      nic: Nicaragua
+      niu: Niue
+      nld: Paesi Bassi
+      nor: Norvegia
+      npl: Nepal
+      nru: Nauru
+      nzl: Nuova Zelanda
+      omn: Oman
+      pak: Pakistan
+      pan: Panamá
+      pcn: Pitcairn
+      per: Perù
+      phl: Filippine
+      plw: Palau
+      png: Papua Nuova Guinea
+      pol: Polonia
+      pri: Porto Rico
+      prk: Corea del Nord
+      prt: Portogallo
+      pry: Paraguay
+      pse: Palestina
+      pyf: Polinesia Francese
+      qat: Qatar
+      reu: Riunione
+      rou: Romania
+      rus: Russia
+      rwa: Ruanda
+      sau: Arabia Saudita
+      sdn: Sudan
+      sen: Senegal
+      sgp: Singapore
+      sgs: Georgia del Sud
+      shn: Sant'Elena
+      sjm: Svalbard
+      slb: Isole Salomone
+      sle: Sierra Leone
+      slv: El Salvador
+      smr: San Marino
+      som: Somalia
+      spm: Saint-Pierre e Miquelon
+      srb: Serbia
+      ssd: Sudan del Sud
+      stp: São Tomé e Príncipe
+      sur: Suriname
+      svk: Slovacchia
+      svn: Slovenia
+      swe: Svezia
+      swz: Swaziland
+      sxm: Sint Maarten
+      syc: Seychelles
+      syr: Siria
+      tca: Turks e Caicos
+      tcd: Ciad
+      tgo: Togo
+      tha: Thailandia
+      tjk: Tagikistan
+      tkl: Tokelau
+      tkm: Turkmenistan
+      tls: Timor Est
+      ton: Tonga
+      tto: Trinidad e Tobago
+      tun: Tunisia
+      tur: Turchia
+      tuv: Tuvalu
+      twn: Taiwan
+      tza: Tanzania
+      uga: Uganda
+      ukr: Ucraina
+      umi: Isole Minori Esterne degli Stati Uniti
+      ury: Uruguay
+      usa: Stati Uniti d'America
+      uzb: Uzbekistan
+      vat: Santa Sede
+      vct: Saint Vincent e Grenadine
+      ven: |
+        Venezuela
+      vgb: Isole Vergini britanniche
+      vir: Isole Vergini americane
+      vnm: Vietnam
+      vut: Vanuatu
+      wlf: Wallis e Futuna
+      wsm: Samoa
+      yem: Yemen
+      zaf: Sudafrica
+      zmb: Zambia
+      zwe: Zimbabwe
+    currencies:
+      names:
+        aed: Dirham degli Emirati Arabi Uniti
+        afn: Afghani afghano
+        all: Lek albanese
+        amd: Dram armeno
+        ang: Fiorino delle Antille Olandesi
+        aoa: Kwanza angolano
+        ars: Peso argentino
+        aud: Dollaro australiano
+        awg: Fiorino arubano
+        azn: Manat azero
+        bam: Marco bosniaco
+        bbd: Dollaro di Barbados
+        bdt: Taka bengalese
+        bgn: Lev bulgaro
+        bhd: Dinaro del Bahrein
+        bif: Franco del Burundi
+        bmd: Dollaro della Bermuda
+        bnd: Dollaro del Brunei
+        bob: Boliviano
+        brl: Real brasiliano
+        bsd: Dollaro delle Bahamas
+        btn: Ngultrum del Bhutan
+        bwp: Pula del Botswana
+        byr: Rublo bielorusso
+        bzd: Dollaro del Belize
+        cad: Dollaro canadese
+        cdf: Franco congolese
+        chf: Franco svizzero
+        clf: Unidad de Fomento
+        clp: Peso cileno
+        cny: Renminbi cinese
+        cop: Peso colombiano
+        crc: Colón costaricano
+        cup: Peso cubano
+        cve: Escudo capoverdiano
+        czk: Corona ceca
+        djf: Franco gibutiano
+        dkk: Corona danese
+        dop: Peso dominicano
+        dzd: Dinaro algerino
+        egp: Sterlina egiziana
+        ern: Nacfa eritreo
+        etb: Birr etiope
+        eur: Euro
+        fjd: Dollaro delle Figi
+        fkp: Sterlina delle Falkland
+        gbp: Sterlina britannica
+        gel: Lari georgiano
+        ghs: Cedi ghanese
+        gip: Sterlina di Gibilterra
+        gmd: Dalasi gambese
+        gnf: Franco guineano
+        gtq: Quetzal guatemalteco
+        gyd: Dollaro della Guyana
+        hkd: Dollaro hongkonghese
+        hnl: Lempira honduregna
+        hrk: Kuna croata
+        htg: Gourde haitiano
+        huf: Fiorino ungherese
+        idr: Rupia indonesiana
+        ils: Nuovo siclo israeliano
+        inr: Rupia indiana
+        iqd: Dinaro iracheno
+        irr: Riyal iraniano
+        isk: Corona islandese
+        jmd: Dollaro giamaicano
+        jod: Dinaro giordano
+        jpy: Yen giapponese
+        kes: Scellino keniota
+        kgs: Som kirghiso
+        khr: Riel cambogiano
+        kmf: Franco delle Comore
+        kpw: Won nordcoreano
+        krw: Won sudcoreano
+        kwd: Dinaro kuwaitiano
+        kyd: Dollaro delle Cayman
+        kzt: Tenge kazako
+        lak: Kip laotiano
+        lbp: Lira libanese
+        lkr: Rupia singalese
+        lrd: Dollaro liberiano
+        lsl: Loti lesothiano
+        ltl: Litas lituano
+        lyd: Dinaro libico
+        mad: Dirham marocchino
+        mdl: Leu moldavo
+        mga: Ariary malgascio
+        mkd: Denaro macedone
+        mmk: Kyat birmano
+        mnt: Tugrik mongolo
+        mop: Pataca di Macao
+        mro: Ouguiya mauritana
+        mur: Rupia mauriziana
+        mvr: Rufiyaa delle Maldive
+        mwk: Kwacha malawiano
+        mxn: Peso messicano
+        myr: Ringgit malese
+        mzn: Metical mozambicano
+        nad: Dollaro namibiano
+        ngn: Naira nigeriana
+        nio: Córdoba nicaraguense
+        nok: Corona norvegese
+        npr: Rupia nepalese
+        nzd: Dollaro neozelandese
+        omr: Riyal dell'Oman
+        pab: Balboa panamense
+        pen: Nuevo sol peruviano
+        pgk: Kina papuana
+        php: Peso filippino
+        pkr: Rupia pakistana
+        pln: Złoty polacco
+        pyg: Guaraní paraguaiano
+        qar: Riyal del Qatar
+        ron: Leu romeno
+        rsd: Dinaro serbo
+        rub: Rublo russo
+        rwf: Franco ruandese
+        sar: Riyal saudita
+        sbd: Dollaro delle Salomone
+        scr: Rupia delle Seychelles
+        sdg: Sterlina sudanese
+        sek: Corona svedese
+        sgd: Dollaro di Singapore
+        shp: Sterlina di Sant'Elena
+        sll: Leone sierraleonese
+        sos: Scellino somalo
+        srd: Dollaro surinamese
+        std: Dobra di São Tomé e Príncipe
+        svc: Colón salvadoregno
+        syp: Lira siriana
+        szl: Lilangeni dello Swaziland
+        thb: Baht thailandese
+        tjs: Somoni tagiko
+        tmt: Manat turkmeno
+        tnd: Dinaro tunisino
+        top: Paʻanga tongano
+        try: Lira turca
+        ttd: Dollaro di Trinidad e Tobago
+        twd: Dollaro taiwanese
+        tzs: Scellino tanzaniano
+        uah: Grivnia ucraina
+        ugx: Scellino ugandese
+        usd: Dollaro statunitense
+        uyu: Peso uruguaiano
+        uzs: Som uzbeko
+        vef: Bolívar venezuelano
+        vnd: Đồng vietnamita
+        vuv: Vatu di Vanuatu
+        wst: Tala samoano
+        xaf: Franco CFA dell'Africa centrale
+        xcd: Dollaro dei Caraibi Orientali
+        xof: Franco CFA dell’Africa Occidentale
+        xpf: Franco CFP
+        yer: Riyal yemenita
+        zar: Rand sudafricano
+        zmw: Kwacha zambiano
+      symbols:
+        aed: '%nد.إ'
+        afn: ؋%n
+        all: Lek%n
+        amd: '%ndram'
+        ang: ƒ%n
+        aoa: Kz%n
+        ars: $%n
+        aud: $%n
+        awg: ƒ%n
+        azn: ман%n
+        bam: KM%n
+        bbd: $%n
+        bdt: ৳%n
+        bgn: лв%n
+        bhd: '%n.د.ب'
+        bif: FBu%n
+        bmd: $%n
+        bnd: $%n
+        bob: $b%n
+        brl: R$%n
+        bsd: $%n
+        btn: Nu.%n
+        bwp: P%n
+        byr: p.%n
+        bzd: BZ$%n
+        cad: $%n
+        cdf: Fr%n
+        chf: CHF%n
+        clf: $%n
+        clp: $%n
+        cny: ¥%n
+        cop: $%n
+        crc: ₡%n
+        cup: ₱%n
+        cve: Esc%n
+        czk: Kč%n
+        djf: Fr%n
+        dkk: '%nkr'
+        dop: RD$%n
+        dzd: دج%n
+        eek: '%nkr'
+        egp: £%n
+        ern: Nfk%n
+        etb: Br%n
+        eur: €%n
+        fjd: $%n
+        fkp: £%n
+        gbp: £%n
+        gel: '%nlari'
+        ggp: £%n
+        ghc: ¢%n
+        ghs: GH₵%n
+        gip: £%n
+        gmd: D%n
+        gnf: Fr%n
+        gtq: Q%n
+        gyd: $%n
+        hkd: $%n
+        hnl: L%n
+        hrk: kn%n
+        htg: G%n
+        huf: '%nFt'
+        idr: Rp%n
+        ils: ₪%n
+        imp: £%n
+        inr: ₹%n
+        iqd: '%nد.ع'
+        irr: ﷼%n
+        isk: '%nkr'
+        jep: £%n
+        jmd: J$%n
+        jod: '%nدينار'
+        jpy: ¥%n
+        kes: Ksh%n
+        kgs: лв%n
+        khr: ៛%n
+        kmf: Fr%n
+        kpw: ₩%n
+        krw: ₩%n
+        kwd: د.ك%n
+        kyd: $%n
+        kzt: лв%n
+        lak: ₭%n
+        lbp: £%n
+        lkr: ₨%n
+        lrd: $%n
+        lsl: M%n
+        ltl: Lt%n
+        lvl: Ls%n
+        lyd: ل.د%n
+        mad: د.م.%n
+        mdl: '%nleu'
+        mga: Ar%n
+        mkd: ден%n
+        mmk: K%n
+        mnt: ₮%n
+        mop: MOP$%n
+        mro: UM%n
+        mur: ₨%n
+        mvr: Rf.%n
+        mwk: MK%n
+        mxn: $%n
+        myr: RM%n
+        mzn: MT%n
+        nad: $%n
+        ngn: ₦%n
+        nio: C$%n
+        nok: '%nkr'
+        npr: ₨%n
+        nzd: $%n
+        omr: ﷼%n
+        pab: B/.%n
+        pen: S/.%n
+        pgk: K%n
+        php: ₱%n
+        pkr: ₨%n
+        pln: '%n zł'
+        pyg: Gs%n
+        qar: ﷼%n
+        ron: lei%n
+        rsd: Дин.%n
+        rub: руб%n
+        rwf: FRw%n
+        sar: ﷼%n
+        sbd: $%n
+        scr: ₨%n
+        sdg: ج.س.‏%n
+        sek: '%nkr'
+        sgd: $%n
+        shp: £%n
+        sll: Le%n
+        sos: S%n
+        srd: $%n
+        std: Db%n
+        svc: $%n
+        syp: £%n
+        szl: E%n
+        thb: ฿%n
+        tjs: '%ncомонӣ'
+        tmt: T%n
+        tnd: د.ت%n
+        top: $%n
+        trl: ₤%n
+        try: ₤%n
+        ttd: TT$%n
+        tvd: $%n
+        twd: NT$%n
+        tzs: TSh%n
+        uah: ₴%n
+        ugx: USh%n
+        usd: $%n
+        uyu: $U%n
+        uzs: лв%n
+        vef: Bs%n
+        vnd: ₫%n
+        vuv: VT%n
+        wst: WS$%n
+        xaf: FCFA%n
+        xcd: $%n
+        xof: CFA%n
+        xpf: F%n
+        yer: ﷼%n
+        zar: R%n
+        zmw: ZK%n
+        zwd: Z$%n
+    defaultPageTitle: Investire Diventa Facile
+    empty: Vuoto
+    languages:
+      de: Deutsch
+      de-DE: Deutsch
+      en: English
+      en-US: English
+      es: Español
+      es-ES: Español
+      fr: Français
+      fr-FR: Français
+      it: Italiano
+      it-IT: Italiano
+      ja: 日本語
+      ja-JP: 日本語
+      pt: Português
+      pt-PT: Português
+      zh-CN: 中文
+    loading: Sto caricando...
+    login: Login
+    pages:
+      privacy_policy: Informativa sulla Privacy
+      tos: Condizioni Generali
+    regions:
+      amer: Americhe
+      apac: Asia e Pacifico
+      emea: Europa, Medio Oriente e Africa
+    register: Registrazione Gratuita
+    social:
+      email: Invita un amico
+    time:
+      dateFormat: '%d/%m/%y'
+      daysOfWeek:
+      - Domenica
+      - Lunedì
+      - Martedì
+      - Mercoledì
+      - Giovedì
+      - Venerdì
+      - Sabato
+      periods:
+        day: '%n giorno'
+        days: '%n giorni'
+        month: '%n mese'
+        months: '%n mesi'
+        week: '%n settimana'
+        weeks: '%n settimane'
+        year: '%n anno'
+        years: '%n anni'
+      shortDateFormat: '%d/%m'
+      shortDaysOfWeek:
+      - Dom
+      - Lun
+      - Mar
+      - Mer
+      - Gio
+      - Ven
+      - Sab
+    tooltips:
+      watch:
+        unwatch: Non seguire più
+        watch: Segui
+      widget:
+        alerts: Avvisi sulle Azioni
+        graph: Grafico dei Prezzi
+        info: Parametri Chiave (Stelle)
+        missing: Questo titolo non è disponibile su Stockflare
+        social: Azione
+        trade: Acquista o vendi %n
+        unavailable: 'Puoi scambiare solo azioni americane '
+    unwatch: Non seguire più
+    wallStreetRecommendations:
+      emptyCategory: Non hai azioni per questa categoria.
+      missing: Nessun Suggerimento
+      price: Prezzo
+      recommendation: Consigli
+      target: Prezzo target
+      titles:
+        buy: Compra
+        hold: Tieni
+        sell: Vendi
+        strong_buy: Compra Adesso
+        strong_sell: Vendi Adesso
+        unknown: N/A
+    watch: Segui
+  delete:
+    copy:
+      deleted: Il suo account è stato eliminato con successo e tutte le informazioni sono state rimosse permanentemente dal nostro sistema. Questa azione è irreversibile.
+      deleting: Il suo account è ora in fase di eliminazione.
+      error: Un errore è stato riscontrato durante l'operazione di eliminazione dell'account. Prego contattare support@stockflare.com
+    titles:
+      deleted: Account Eliminato
+      deleting: Eliminazione dell'account in corso...
+      error: Si è verificato un errore
+  disclaimers:
+    main:
+      fifth: I 5 parametri chiave di Stockflare, chiamati stelle, sono un modo per confrontare la qualità di un gruppo qualsiasi di stock. Questi parametri vogliono riassumere l'analisi delle azioni riguardo profittabilità, dividendi, crescita, valore e l'opinione di "Wall Street" su ciascuno stock. Sottolineiamo che sono dei parametri per misurare la qualità e sono strumenti di ricerca, non raccomandazioni esplicite o implicite.
+      first: Stockflare è operato da %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, azienda con sede nel Regno Unito. Stockflare è prima di tutto in servizio d'informazione. Non forniamo consigli né dispensiamo raccomandazioni. Siamo uno strumento di ricerca per investitori autonomi.
+      fourth: Forniamo le previsioni di consenso e le raccomandazioni di "Wall Street" sul nostro sito, inlcusi gli indicatori per "compra" "vendi", "tieni" e  "prezzi obiettivo" per le azioni. Stockflare non valuta le stime. Sfortunatamente, non esistono stime relative al futuro. Le indicazioni di Wall Street sono soggettive, non oggettive, il che significa che sono normalmente erronee.
+      second: I consigli sugli investimenti sono un servizio regolamentato. La nostra filiale statunitense di cui siamo interi proprietari, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787}, è una consulente agli investimenti registrata presso la SEC. Se si desidera ricevere una consulenza da StockflareUSA, dare un'occhiata alla %_blank(brochure clienti){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069}.
+      third: I dati sui prezzi di fine giornata, i fondamentali e le stime sono forniti dalla Thomson Reuters. Eventuali dati sui prezzi pervenuti in ritardo per BATS, AMEX, NYSE, e NASDAQ sono forniti da %_blank(Barchart){http://www.barchart.com/agreement.php} e hanno un ritardo di almeno 10 minuti (per ulteriori informazioni visitare il loro sito). Le integrazioni per aziende di intermediazione americane sono effettuate da %_blank(Trading Ticket Inc.){https://www.trade.it/}
+    metrics: I 5 test a stelle (parametri chiave) comprendono prefittabilità, dividendi, crescita, valore e il "sentimento" dei prefessionisti di Wall Street. Non sono raccomandazioni ma un modo per confrontare la qualità delle azioni ed evidenziare i rischi principali.
+    title: Dettagli legali
+    wallStreet: Questa tabella presenta l'upside al prezzo di "Wall Street" e i consigli per le azioni nella tua Lista. Non esistono dati ceri sul futuro, quindi il "consensus" di Wall Street è un'analisi soggettiva, non oggettiva, che Stockflare non può approvare. Noi presentiamo i dati, così i nostri utenti possono leggere cosa pensano gli esperti riguardo un qualsiasi stock.
+    worth: Questa tabella combina i dati sui guadagni a lungo termine e le previsioni del "consensus" di Wall Street, il rendimento da dividendi previsto e una media delle previsioni sul rapporto prezzo/utili. La cifra sul guadagno previsto è basata quindi su un'analisi soggettiva dei prefessionisti, non oggettiva. Stockflare non approva questi dati, ma semplicemente li analizza e li presenta, così i nostri utenti possono vedere loro stessi quale sia l'opinione degli esperti su un particolare stock. Non c'è certezza sul futuro, quindi nel caso i suddetti esperti sbagliassero, il guadagno reale potrebbe essere diverso da ciò che viene mostrato qui.
+  errors:
+    api_error: Ops! C'è stato un errore durante la connessione ai nostri server.
+    not_found: Diamine! Questa pagina non esiste.
+    stock_not_tradeable: Ci dispiace, ma questo titolo attualmente non è negoziabile.
+  explore:
+    all: Tutte le Azioni
+    biLine: Bisogno di una piccola ispirazione?
+    categories:
+      big-and-cheap:
+        description: Ci sono un sacco di grandi compagnie con grandi marchi che gli investitori stanno ignorando. Non è che potrebbero tornare favorevoli un giorno?
+        disclaimer: Le azioni in "Grandi e Convenienti" sono raccolte filtrando tutti gli stock negli USA con un valore di oltre $50 miliardi e, usando un rapporto prezzo-utili (PE), più economiche delle concorrenti.
+        filters:
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
+        name: Grandi e Convenienti
+      boring-businesses:
+        description: Bisogna proprio investire nelle azioni più "calde"? Immagina di parlare ai tuoi amici di vernici, plastiche, batterie e cuscinetti a sfera, acque di scolo o prodotti sanitari. Puoi trovare anche aziende veterinarie e agenzie di pompe funebri. Da' un'occhiata!
+        disclaimer: 'Le azioni in "Imprese Noiose" sono raccolte filtrando ogni stock negli USA con un valore di oltre $1 miliardo che abbia passato almeno uno dei nostri test a stelle (es. redditizio, dividendi, forte crescita, ecc...). Poi analizziamo le azioni che passano questo filtro e sono anche in uno dei settori seguenti: vernici, plastiche, batterie, cuscinetti a sfera, liquami, prodotti sanitari, aziende che si occupano di collaudo, aziende veterinarie e agenzie di pompe funebri.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
+        name: Imprese Noiose
+      cash-heavy:
+        description: Ci sono alcune compagnie che non hanno debito e che pagano tutto il loro Cashflow agli azionisti. Hanno sia Cashflow che liquidità?
+        disclaimer: Le azioni in "Un Mucchio di Soldi" sono raccolte filtrando ogni stock negli USA con un valore di oltre $500 milioni, che dal bilancio risulti disporre di molti liquidi e che paghi un dividendo significativo (più del 4%).
+        filters:
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
+        name: Un Mucchio di Soldi
+      coffee-cake:
+        description: Investi nei piccoli piaceri della vita, anche se abbonderai con lo zucchero non avrai sensi di colpa.
+        disclaimer: 'Le azioni in "Caffè & Dolciumi" sono raccolte filtrando ogni stock nel mondo con un valore di oltre $500 milioni e che abbia passato almeno 2 dei test a stelle (es redditizio, paga i dividendi, ecc). Analizziamo poi le azioni che passano questo filtro e che ricadano inoltre in una delle seguenti categorie: produzione e raccolta di caffè e zucchero di canna, produzione di biscotti, dolcificanti e confetti.'
+        filters:
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
+        name: Caffè & Dolciumi
+      gem-stones:
+        description: I diamanti sono i migliori amici degli investitori? Diamanti, gemme preziose, raccoglitori di perle, tutte opzioni valide per un investitore.
+        disclaimer: 'Le azioni in "Pietre Preziose" sono raccolte filtrando ogni stock nel mondo con un valore di oltre $100 milioni e che abbia passato almeno 1 dei test a stelle (es redditizio, ecc). Analizziamo poi le azioni che facciano parte di uno qualsiasi dei settori seguenti: estrazione di diamanti, pietre semi-preziose, perle. '
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
+        name: Pietre Preziose
+      going-nuclear:
+        description: L'energia nucleare non è pulita ma, nella prospettiva di un mondo senza petrolio, realizziamo che è importante tanto quanto l'energia rinnovabile nella lotta per dare energia al nostro pianeta.
+        disclaimer: 'Le azioni in "Per il Nucleare" sono raccolte filtrando ogni stock nel mondo con un valore di oltre $100 milioni che abbia passato almeno 1 dei test a stelle (es redditizio, ecc). Analizziamo poi le azioni che siano in uno qualsiasi dei settori: uranio, componenti & costruzione per tecnologia nucleare, utilities nucleari.'
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
+        name: Per il Nucleare
+      hated-by-wall-street:
+        description: Se sei uno di quei cinici che non si fidano di Wall Street e di ciò che pensa la massa, cosa c'è di meglio che investire in ciò che Wall Street non sopporta!
+        disclaimer: Le azioni in "Detestati da Wall Street" sono raccolte filtrando ogni stock negli USA con un valore di oltre $500 milioni e che l'opinione generale dei broker bolla come "Vendi" o "Vendi Subito" (Strong Sell)
+        filters:
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
+        name: Detestati da Wall Street
+      healthy-tech:
+        description: Le biotecnologie progrediscono ogni giorno. Perché non sostenere i scienziati che stanno risolvendo i problemi più difficili nella sanità?
+        disclaimer: 'Le azioni in "Tecnologia per la Sanità" sono raccolte filtrando tutti gli stock negli USA con un valore di oltre $1 miliardo che fanno parte dei seguenti settori: biofarmaci, biotecnologie e ricerca medica.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
+        name: Tecnologia per la Sanità
+      land-and-sea:
+        description: Tutti noi dobbiamo mangiare, giusto? Ci sono moltissime compagnie che lavorano nel settore dell'agricoltura, dai contadini a coloro che costruiscono forniscono i macchinari e pesticidi. Qui trovi i protagonisti.
+        disclaimer: 'Le azioni in "Terra e Mare" sono raccolte filtrando tutti gli stock negli USA e in Canada con un valore di oltre $1 miliardi che siano nei settori: prodotti chimici agricoli, coltivazione del cotone, del tabacco, pesca & agricoltura.'
+        filters:
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
+        name: Terra e Mare
+      legal-eagles:
+        description: Avvocati e contabili sono cari, potete investire anche su di loro!
+        disclaimer: Le azioni in "Avvocati ed Esperti" sono raccolte filtrando tutte gli stock nelle Americhe che hanno un valore di oltre $50 milioni e hanno passato almeno 1 dei test a stelle (es redditizio, ecc). Analizziamo poi le azioni che fanno parte dei settori di contabilità e servizi legali e fornitori di informazioni legali e fiscali.
+        filters:
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
+        name: Avvocati ed Esperti
+      renewables:
+        description: Se vuoi investire in nel mondo post-petrolio, ci sono molte compagnie che lavorano nel settore delle energie rinnovabili. La loro gamma di tecnologie e prodotti varia dall'energia eolica e solare a quella ricavata dal moto ondoso e dall'idrogeno. Ecco i protagonisti.
+        disclaimer: Le azioni in "Rinnovabili" sono raccolte filtrando tutti gli stock nelle Americhe che hanno passato almeno 3 dei test a stelle (es redditizio, ecc). Analizziamo poi le azioni che rientrano nel settore delle energie rinnovabili.
+        filters:
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
+        name: Rinnovabili
+      ship-it:
+        description: Il mare è spesso l'unica via per spedire beni in grandi quantità. Tuttavia puoi investire facilmente sia in imbarcazioni da diporto che in superpetroliere.
+        disclaimer: 'Le azioni in "Spedisci!" sono raccolte filtrando tutti gli stock nel mondo con un valore di oltre $500 milioni e che abbiano passato almeno 1 dei test a stelle (es redditizio, ecc). Analizziamo poi gli stock che appartengono a uno dei seguenti settori: petroliere, costruzione navale, trasporto di merci marittimo & logistica, yacht & motoscafi e servizi portuali.'
+        filters:
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
+        name: Spedisci!
+      space-race:
+        description: Se siete alla ricerca dell'ultima frontiera, esistono compagnie e costruttori di razzi e satelliti che dipendono proprio da questi per il funzionamento dei propri affari.
+        disclaimer: 'Le azioni in "Corsa allo Spazio" sono raccolte filtrando ogni stock nel mondo che abbia un valore di oltre $100 milioni e che faccia parte dei settori: fabbricazione di satelliti & navicelle spaziali, rete e navigazione via satellite.'
+        filters:
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
+        name: Corsa allo Spazio
+      sporting-outdoors:
+        description: Puoi anche investire in una squadra, possederne la sede o semplicemente vestire i loro colori!
+        disclaimer: 'Le azioni in "Idee per lo Sport" sono raccolte filtrando ogni stock nel mondo che abbia passato almeno uno dei test a stelle (es redditizio, ecc) e che faccia parte dei settori: calzature, abbigliamento e attrezzatura per attività all''aperto, palestre, stazioni sciistiche, impianti sportivi, campi da golf, negozi e venditori specializzati in sport.'
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
+        name: Idee per lo Sport
+      taking-it-easy:
+        description: Chi ha detto che per scegliere le azioni devi essere un mago dell'investimento? Puoi sempre scegliere un ETF, cioè un "exchange traded fund". In questo modo la tua performance sarà buona tanto quanto quella del mercato, anche senza batterlo!
+        disclaimer: Gli stock in "Non Preoccuparti!" sono tutti ETF (exchange traded funds), raccolti filtrando tutti gli stock nel mondo con un valore di oltre $10 miliardi che facciano parte del settore ETF.
+        filters:
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
+        name: Non Preoccuparti!
+      tech-titans:
+        description: Se è vero che "la tecnologia sta mangiando il mondo", ecco alcune compagnie che si stanno godendo il banchetto.
+        disclaimer: Le azioni in "Giganti della Tecnologia" sono raccolte filtrando tutti gli stock nel mondo che hanno un valore di oltre $10 miliardi e che abbiano passato almeno 1 dei test a stelle (es redditizio, ecc). Analizziamo poi quali di questi facciano parte del settore tecnologico.
+        filters:
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
+        name: Giganti della Tecnologia
+      thirsty:
+        description: L'acqua pulita è una delle cose più importanti. Con l'aumento della popolazione crescono anche le azioni?
+        disclaimer: 'Le azioni in "Sete?" sono raccolte filtrando tutti gli stock negli USA che abbiano passato almeno 1 dei test a stelle (es redditizio, ecc) e che facciano parte dei settori: costruzione di acquedotti e fognature, acqua in bottiglia & ghiaccio, infrastrutture per l''acqua.'
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
+        name: Sete?
+      timber:
+        description: Vuoi investire nel settore del legno, foreste e segherie? Ecco i migliori giocatori di USA e Canada.
+        disclaimer: 'Le azioni in "Legno!" sono raccolte filtrando tutti gli stock negli USA e in Canada con un valore di oltre $100 milioni e che abbiano passato almeno 2 dei test a stelle (es redditizio, ecc). Analizziamo poi quali fanno parte dei settori: prodotti riguardanti carta e legname, legname per contenitori e imballaggio, imballaggio con la carta, REIT del legname.'
+        filters:
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
+        name: Legno!
+      time-online:
+        description: 'Quasi tutti passano più tempo su internet a discapito della TV: è chiaro chi siano i veri leader. Perché non investi nelle compagnie che usi tutti i giorni?'
+        disclaimer: Le azioni in "Navigando" sono raccolte filtrando tutti gli stock negli USA con un valore di oltre $10 miliardi che abbiano passato almeno 1 dei test a stelle (es redditizio, ecc) e che facciano parte del settore dei servizi via internet.
+        filters:
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
+        name: Navigando
+      vice-not-nice:
+        description: Hai abbandonato la moralità? Vuoi investire in alcol, droghe, gioco d'azzardo, armi e altri vizi?
+        disclaimer: 'Le azioni in "Investire nei Vizi" sono raccolte filtrando tuttigli stock negli USA con un valore di mercato di oltre $500 milioni che abbiano passato almeno 2 dei test a stelle (es redditizio, ecc). Analizziamo poi quali facciano parte dei settori: fabbricazione di armi, pub e locali notturni, casinò e gioco d''azzardo, intrettenimento per adulti, distillerie e birrifici, negozi di alcolici e tabacco.'
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
+        name: Investire nei Vizi
+      young-and-old:
+        description: Dai vestiti ai giocattoli, indipendentemente dall'età. C'è scelta per tutti.
+        disclaimer: 'Le azioni in "Giovani e Anziani" sono raccolte filtrando tutti gli stock negli USA con un valore di oltre $1 miliardo che abbiano passato almeno 2 dei test a stelle (es redditizio, ecc) e che facciano parte dei settori: calzature a abbigliamento per bambini, case di riposo, giocattoli, linee di crociera, venditori di prodotti per babini e teenager, alimenti per bambini, prodotti per il controllo delle nascite, assistenza per babini, servizi funebri, occhiali e lenti a contatto, assistenza a lungo termine.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
+        name: Giovani e Anziani
+    filters: I filtri dietro a %n
+    pageDescription: Bisogno di una piccola ispirazione? Perché non dai un'occhiata alla categorie che Stockflare ha creato per te?
+    pageTitle: Esplora Stockflare
+    popular: Le più grandi in %n
+  filterBar:
+    company_tags:
+      descriptions:
+        growing: Vendite e utili per azione sono previsti in aumento per quest'anno rispetto all'anno scorso.
+        has_cash: Compagnie con più soldi e investimenti che debiti.
+        high_growth: Utili previsti in crescita di più del 16% nel lungo termine.
+        large: Compagnie valutate a più di $10 mld.
+        pays_dividends: Compagnie che pagano i dividendi agli azionisti.
+        profitable: Redditizio l'anno precedente, e previsioni per quest'anno.
+        small: Compagnie valutate a meno di $1 miliardo di US Dollars.
+        turning_profitable: Si presume che sia redditizia quest'anno, dopo le perdite subite lo scorso anno.
+      titles:
+        default: Metriche di Business
+        filters:
+          growing: In Crescita
+          has_cash: Con Liquidità e Investimenti
+          high_growth: Solo compagnie in forte crescita
+          large: Solo grandi compagnie
+          pays_dividends: Solo compagnie che pagano i dividendi
+          profitable: Oggi Redditizia
+          small: Solo piccole compagnie
+          turning_profitable: Che stanno diventando redditizie
+    country:
+      search: Ricerca per Paese
+      titles:
+        default: Paese
+    country_currency:
+      categories:
+        country: Paesi
+        currency: Valute Principali
+        regions: Regioni
+      titles:
+        default: Paese & Valuta
+    direction:
+      descriptions:
+        near_high: Azioni che sono entro il 5% del loro prezzo più alto delle ultime cinquantadue settimane.
+        near_low: Azioni che sono entro il 5% del loro prezzo più basso delle ultime cinquantadue settimane.
+        negative: Azioni il cui prezzo è inferiore alla loro media su dieci giorni
+        positive: Azioni il cui prezzo è superiore alla loro media su dieci giorni
+      titles:
+        default: Andamento del Prezzo
+        filters:
+          near_high: Prezzo vicino al più alto da 52 settimane
+          near_low: Prezzo vicino al più basso da 52 settimane
+          negative: Tendenza Negativa
+          positive: Tendenza Positiva
+    metrics:
+      cheaper:
+        description: L'azione è più conveniente ripetto alle concorrenti?
+        title: Conveniente
+      dividends:
+        description: La compagnia paga i dividendi?
+        title: Paga i Dividendi
+      high_growth:
+        description: La compagnia è prevista in crescita più veloce rispetto alle concorrenti
+        title: Forte Crescita
+      profitable:
+        description: La compagnia è redditizia?
+        title: Redditizio
+      title: Parametri Chiave (Stelle)
+      upside:
+        description: Wall Street pensa che l'azione valga di più del suo prezzo corrente
+        title: Ha Upside
+    opinion:
+      titles:
+        default: Stile d'investimento
+    order:
+      ascending: da - a +
+      descending: da + a -
+      orders:
+        latest_market_value_usd: Valore di Mercato
+        latest_price: Prezzo
+        latest_rating: Classificazione a Stelle
+        market_value_usd: Valore di Mercato
+        price: Prezzo
+        rating: Classificazione a Stelle
+    panel:
+      description: Puoi selezionare tra le opzioni sotto i filtri da applicare per trovare le azioni perfette per te.
+      title: Applica i Filtri
+    sector:
+      titles:
+        default: Settore
+    sectors:
+    - code: '50'
+      name: Petrolio & Gas
+    - code: '51'
+      name: Miniere & Materie Prime
+    - code: '52'
+      name: Industrie
+    - code: '54'
+      name: Consumo (Grande Distribuzione)
+    - code: '53'
+      name: Consumo (Altro)
+    - code: '55'
+      name: Finanza
+    - code: '56'
+      name: Sanità
+    - code: '57'
+      name: Tecnologia
+    - code: '58'
+      name: Telecomunicazioni
+    - code: '59'
+      name: Utilità
+    sentiment:
+      descriptions:
+        hated: Azioni il cui target price di Wall Street è più basso del prezzo odierno.
+        loved: Azioni il cui target price di Wall Street è più alto del prezzo odierno.
+        unknown: Azioni su cui Wall Street non ha un'opinione riguardo al prezzo.
+      titles:
+        default: Opinione
+        filters:
+          hated: Detestati da Wall Street
+          loved: Amati da Wall Street
+          unknown: Sconosciuti a Wall Street
+    style:
+      descriptions:
+        growth: Compagnie la cui crescita a lungo termine è più rapida rispetto alle concorrenti.
+        quality: Le compagnie a buon mercato e previste in forte crescita.
+        value: Compagnie meno care delle concorrenti.
+      titles:
+        default: Stile d'investimento
+        filters:
+          growth: Forte Crescita
+          quality: Alta Qualità
+          value: Buon Mercato
+    valuation:
+      descriptions:
+        high_dividend: Azioni a buon mercato in base al pagamento in dividendi.
+        low_book_value: Azioni a buon mercato in base al loro valore patrimoniale netto.
+        low_operating_profit: Azioni in base ai loro utili operativi
+        low_pe: Azioni a buon mercato in base ai loro utili.
+        low_sales: Azioni classificate in base al loro prezzo di vendita.
+      titles:
+        default: Valutazione
+        filters:
+          high_dividend: Dividendo oltre 4%
+          low_book_value: Scambio a meno del valore contabile
+          low_operating_profit: Meno del 7x Utile Operativo
+          low_pe: Rapporto prezzo/utili (PE) sotto 10x
+          low_sales: Meno dell'1x Vendite
+  forgot:
+    buttons:
+      forgot: Recupera la mia Password
+    copy:
+      explanation: Un'email è stata invitata all'indirizzo email registato. Usare il link contenuto in essa per reimpostare la password in tutta sicurezza.
+    errors:
+      '404': Indirizzo email sconosciuto
+      '500': Spiacente, c'è stato un errore del server
+    og:
+      description: Password dimenticata? Recuperala qui.
+      title: Recupera la tua Password di Stockflare
+    pageTitle: Password Dimenticata
+    prompt:
+      question: Password ritrovata?
+      register: Login
+    titles:
+      forgot: Password Dimenticata
+      sent: Password Reimpostata
+  header:
+    buttons:
+      about: Su Stockflare
+      alerts: I miei Avvisi
+      explore: Esplora
+      filters: Filtri
+      guestWatched: Salva la tua Lista
+      ideas: Scegli le Azioni
+      search: Cerca
+      watchlist: La mia Lista
+  home:
+    explore:
+      link: Clicca qui per esplorare tutti gli argomenti
+      title: Esplora per argomento
+    pageDescription: Cerca qualsiasi titolo in tutto il mondo
+    pageTitle: Home
+    sector:
+      link: Clicca qui per vedere tutti i titoli in %n
+      title: Esplora i maggiori titoli in %n
+  landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / month
+          price_two: ¥ 30 per month
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
+    explore:
+      content:
+        copy: Tutti amano esplorare nuove idee e tecnologie.
+        line: La sezione "Esplora" filtra le azioni di tutto il mondo in un modo comprensibile e utilizzabile da tutti.
+        point: Informati e migliora il tuo modo di investire.
+        title: Un nuovo modo di esplorare
+    feed:
+      content:
+        copy: Passa al vaglio migliaia di azioni in un attimo usando i nostri filtri.
+        point: Con Stockflare puoi scoprire le migliori azioni.
+        title: Arriva al punto
+    introduction:
+      content:
+        copy: Scegli solo le migliori azioni per il tuo portafoglio.
+        cta: 100% Gratis
+        point: Migliora il tuo modo d'investire.
+        title: Investire Diventa Facile
+      menu:
+        search: Cerca le Azioni
+        skip: Salta
+      stats:
+        analyzed: Azioni Analizzate
+        countries: Paesi
+        stocks: Azioni da 5 Stelle
+      tease: Cos'è Stockflare?
+    mobile:
+      content:
+        copy: Non importa dove sei, Stockflare ha una versione per mobile e tablet apposta per te.
+        title: Azioni Portatili!
+    opinion:
+      bubbles:
+        buy: Compra
+        hold: Tieni
+        sell: Vendi
+      content:
+        copy: Ottieni i consigli dei professionisti. Sono Compratori o Venditori? Target Price per ogni azione.
+        point: I cosigli dei professionisti. Gratis, per sempre.
+        title: Cosa stanno comprando gli esperti?
+    pageTitle: Investire Diventa Facile
+    question:
+      content:
+        copy: Informarsi sulla qualità degli stock non deve per forza essere complicato. Ti informiamo sulle principali caratteristiche delle azioni in modo rapido. Passa al vaglio oltre 47 000 azioni in tutto il mondo tramite centinaia di parametri e migliora il tuo modo di investire.
+        title: Cos'è Stockflare?
+    rating:
+      content:
+        copy: 'Non sopporti più tutta la terminologia che gli esperti di finanza usano per confonderti? Stockflare fornisce una classificazione a stelle, che rappresentano i parametri chiave, per tutte le azioni del mondo: dritti al punto.'
+        point: Informati sulle azioni in tutta facilità. Migliora il tuo modo di investire.
+        reveal:
+          notRevealing: Guarda %n
+          revealing: '%n è un''azione da %n stelle'
+        title: Trova le informazioni chiave in un batter d'occhio.
+      ratings:
+        cheaper: Caro o Conveniente?
+        dividends: La compagnia paga i dividendi?
+        growth: È in forte crescita?
+        profitable: È redditizia?
+        upside: Che ne pensa Wall Street?
+    register:
+      content:
+        copy: Registrati per tenere sotto controllo le tue azioni preferite.
+        skip: Vai direttamente alle azioni
+        title: Registrati ora, è gratis
+  login:
+    buttons:
+      forgot: Ho dimenticato la password
+      loading: Esecuzione del Login
+      login: Login
+      resetOtp: Ho perso il mio dispositivo MFA
+      social_login: Login via
+    descriptions:
+      mfa: 'Questo account è stato protetto con un dispositivo MFA. Inserire il codice di auteticazione del dispositivo per completare il login. '
+    errors:
+      '401': Username e/o Password invalidi
+      '500': Spiacenti, c'è stato un errore del server
+      error_403: Nome utente o password non validi
+      error_500: Ci dispiace, c'è stato un errore del server
+      mfa:
+        '401': Codice di autenticazione non valido
+        '500': Spiacenti, c'è stato un errore del server
+    flash:
+      success: Adesso sei connesso come %n
+    og:
+      description: Hai un account? Connettiti a Stockflare qui.
+      title: Login a Stockflare
+    pageTitle: Login
+    prompt:
+      mfaInfo: Maggiori Informazioni
+      question: Non sei ancora un membro?
+      register: Registrati gratis qui
+    titles:
+      expired: La tua sessione è scaduta
+      login: Login a Stockflare
+      mfa: Account Sicuro
+      social: Login con un Account Social (Presto Disponibile)
+  mobile:
+    homepage:
+      createAccount: Crea un account gratuito
+      logged:
+        subtitle: Ora è possibile visualizzare gli avvisi e gli incagli
+        title: Bentornato
+      subtitle: Scegli e visualizza le azioni comodamente con il nostro sistema unico
+      title: Investire Diventa Facile
+      viewMore:
+        stocks: Visualizza altre azioni
+        themes: Visualizza più ambiti
+    stock:
+      keyStats:
+        title: Statistiche Chiave
+      starRating:
+        cheap:
+          na: Nessun rapporto PE
+          text: PE %nx vs. concorrenti di %nx
+          title:
+            negative: Più Caro
+            positive: Più Economico
+        dividends:
+          na: Non ci sono previsioni disponibili
+          negative:
+            text: Senza pagamento dividendi
+          positive:
+            text: Dividendo %n. Rendimento del %n%
+          title: Previsione
+        expert:
+          downside: '%n% di downside rispetto al prezzo obiettivo'
+          na: Non sono disponibili ricerche di esperti
+          noChanges: Non ci sono differenze rispetto al prezzo obiettivo
+          title: Opinione degli esperti
+          upside: '%n% di upside rispetto al prezzo obiettivo'
+        profitable:
+          na: Non ci sono previsioni disponibili
+          text: Previsione sugli Utili per Azione (EPS)
+          title:
+            negative: Non redditizio
+            positive: Redditizio
+        profitbale:
+          na: Non ci sono previsioni disponibili
+          text: Previsione sugli Utili per Azione (EPS)
+          title:
+            negative: Non redditizio
+            positive: Redditizio
+        stronger:
+          na: Non ci sono previsioni di crescita
+          text: '%n% di crescita vs. concorrenti con %n%'
+          title:
+            negative: più debole
+            positive: più forte
+        title: Classificazione a Stelle
+  onboard:
+    controls:
+      complete: Finito
+      next: Prossimo
+      prev: Precedente
+      skip: Salta
+    subtitles:
+      pick: Ecco alcune grandi compagnie americane. Perché non aggiungerne un paio alla Lista?
+      register: Guadagna accesso a tutte le nostre funzioni esclusive
+      watchlist: Le Liste sono gli elenchi delle azioni che possiedi o vuoi controllare
+    titles:
+      pick: Proviamo
+      register: Registrati ora gratis..
+      watchlist: 'Le Liste sono molto utili: ecco perché!'
+    watchlist:
+      reasons:
+        alerts: Ricevi gli avvisi più importanti sulle tue azioni
+        analysis: Ottieni rapidamente le informazioni pricipali.
+        multiples: È possibile creare più Liste in modo facile.
+        unlimited: Puoi seguire un numero illimitato di azioni
+  portfolios:
+    connected-brokerages: Intermediazioni collegate
+    create:
+      button: Nuova intermediazione
+    watchlists: Liste di osservazione
+  recover:
+    buttons:
+      recover: Reimposta la Password
+    copy:
+      explanation: La sua password è stata ora reimpostata.
+      link: Clicca qui per il login
+    errors:
+      '400': La reimpostazione della password non è andata a buon fine
+      '403': La password temporanea è scaduta
+    og:
+      description: Recupera la password qui.
+      title: Reimposta la password Stockflare
+    pageTitle: Reimpostare la Password
+    prompt:
+      question: Password ritrovata?
+      register: Login qui
+    titles:
+      recover: Reimposta la Password
+      sent: Password Reimpostata
+  recoverMfa:
+    buttons:
+      recover: Reimposta l'MFA
+    copy:
+      explanation: Il medodo di autentificazione MFA è stato reimpostato e disattivato per questo account.
+      link: Clicca qui per il login
+    errors:
+      '400': Il tentativo di reimpostazione dell'MFA non è andato a buon fine.
+      '403': Il token di ripristino MFA è scaduto, prego richiederne uno nuovo.
+    og:
+      description: Reimposta l'MFA qui
+      title: Reimposta il metodo di autentificazione MFA per il tuo account
+    pageTitle: Reimposta l'MFA (Multi-Factor Authentication)
+    prompt:
+      login: Login qui
+      question: Trovato il dispositivo MFA?
+    titles:
+      recover: Reimposta il metodo di autentificazione MFA
+      recovered: MFA reimpostato con successo
+  register:
+    buttons:
+      loading: Sto creando l'account
+      register: Registrati a Stockflare
+    disclaimer: 'Utilizzando il nostro sito o cliccando ''%n'' si accettano i nostri '
+    errors:
+      error: 'Ci dispiace, c''è stato un problema con la tua registrazione:'
+      error_400: Occorrono un'e-mail valida e una password di almeno 6 caratteri
+      error_409: Indirizzo e-mail già registrato.
+      error_500: C'è stato un errore del server. Ti preghiamo di ritentare più tardi.
+    flash:
+      success: Registrazione effettuata con successo come %n
+    og:
+      description: Non hai ancora un account? Registrati a Stockflare qui.
+      title: Registra un nuovo account per Stockflare
+    pageTitle: Registrati
+    prompt:
+      login: Login
+      question: Già membro?
+    success:
+      cta: Vai alle Azioni
+      loopback: Caricamento...
+      title: Registrazione Completata
+    titles:
+      join: Iscriviti a Stockflare
+  resetMfa:
+    buttons:
+      reset: Reimposta l'MFA
+    copy:
+      explanation: Un'email contenente un link sicuro per reimpostare l'MFA è stata mandata all'indirizzo registrato. Dovrai anche fornire i codici di recupero che hai ricevuto quando l'MFA era stata attivata in precedenza.
+    errors:
+      '404': Indirizzo email sconosciuto
+      '500': Spiacenti, c'è stato un errore del server
+    og:
+      description: Hai perso il tuo dispositivo MFA virtuale? Reimpostalo qui.
+      title: Reimposta l'MFA per il tuo account Stockflare
+    pageTitle: Reimpostare l'MFA (Multi-Factor Authentication)
+    prompt:
+      login: Login
+      question: Hai ritrovato il tuo dispositivo MFA virtuale?
+    titles:
+      reset: Reimposta l'MFA (Multi-Factor Authentication)
+      sent: Richiesta di reimpostazione del metodo di autentificazione MFA inviata.
+  search:
+    none:
+      link: Vuoi provare %n invece?
+      title: Non sono stati trovati titoli corrispondenti a '%n'
+    pageTitle: Cerca
+    placeholder: Digitare il nome della compagnia o il ticker per la ricerca
+    searching:
+      description: Fare il giro del mondo!
+      title: Ricerca in corso fra oltre 45.000 titoli
+    searchingTitle: Ricerca di %n
+    title: 'Ricerca in corso di %n '
+  settings:
+    buttons:
+      apply: Applica
+      delete: Cancella l'Account
+      disableMfa: Disattiva MFA
+      enableMfa: Attiva MFA
+      loading: Aggiornamento delle impostazioni
+    descriptions:
+      currency: Proiezioni e i valori per la tua Lista sono indicate nella tua valuta preferita usando il tasso di cambio più recente.
+      current: Per effettuare questa modifica sei pregato di inserire la tua password
+      delete: Cancellare l'account rimuoverà tutti i tuoi dati personali dai nostri sistemi. Questa azione è irrevocabile.
+      error: Spiacenti, c'è stato un problema nell'aggiornamento delle impostazioni.
+      language: Seleziona la lingua che preferisci per utilizzare Stockflare.
+      location: La tua localizzazione è usata per filtrare le azioni in caso non sia applicato un filtro per il Paese.
+      mfaDisable: Disattiva l'MFA per il tuo account inserendo i due codici validi qui sotto.
+      mfaDisabled: MFA fornisce un livello ulteriore di sicurezza per il tuo account.
+      mfaEnable: Attiva il tuo metodo di autentificazione MFA inserendo due codici validi dopo aver scansionato il codice QR.
+      mfaEnabled: Il metodo di autentificazione MFA è attualmente attivo per questo account.
+      password: Lasciare il campo vuoto se non si vuole cambiare la password
+    flash:
+      delete: Sei sicuro di voler chiudere il tuo account Stockflare?
+      deleteError: Spiacenti, c'è stato un errore durante la chiusura dell'account, prego contattare info@stockflare.com
+      deleteInitiated: Richiesta per la chiusura dell'account ricevuta. Prego controllare la cartella email della posta in arrivo per ulteriori istruzioni.
+      updated: Le impostazioni sono state aggiornate
+    groups:
+      password: Cambiare la password
+    pageTitle: Impostazioni
+    titles:
+      danger: Danger Zone
+      header: Impostazini dell'Utente
+      mfa: Metodo di Autentificazione MFA
+      properties: I miei dati
+      protected: Informazioni protette
+  stock:
+    buttons:
+      fiveYears: 5 Anni
+      oneMonth: 1 Mese
+      oneWeek: 1 Settimana
+      oneYear: 1 Anno
+      sixMonths: 6 Mesi
+      threeMonths: 3 Mesi
+    cheaper:
+      cheaper:
+        explanation: Il %t(pe){rapporto prezzo/utili} è più basso rispetto ai concorrenti.
+        title: Più Economico
+      expensive:
+        explanation: Il %t(pe){rapporto prezzo/utili} è più alto rispetto ai concorrenti.
+        title: Più Caro
+    dividends:
+      forecastedDescription: Previsione di %t(dps){Dividendi-per-Azione}.
+      latestDescription: Recenti %t(dps){Dividendi-per-Azione}.
+      title: Paga i Dividendi?
+      yield: Rendimento di %n%
+    errors:
+      generic: C'è stato un errore
+      loadError: Errore nel caricamento dell'azione
+    graph:
+      average: Media
+      empty: Non ci sono ancora dati per questo grafico
+      price: Prezzo
+      volume: Prezzo & Volume
+    growth:
+      strong:
+        explanation: La crescita a lungo termine è prevista essere maggiore rispetto ai concorrenti.
+        title: Forte Crescita
+      weak:
+        explanation: La crescita a lungo termine è prevista essere inferiore rispetto ai concorrenti.
+        title: Crescita Debole
+    header:
+      actualChange: Variazione Assoluta
+      last_updated: L'ultimo aggiornamento del' %n
+      percentChange: Variazione Percentuale
+      price: Prezzo dell'Azione
+    information:
+      breakdown: Dettagli sui Parametri Chiave (Stelle)
+      competitors: Concorrenti
+      description: Descrizione della Compagnia
+      results: Ultimi Risultati
+      statistics: Statistiche Chiave
+      view_all_competitors: Visualizza tutto
+    inner:
+      description:
+        table:
+          name: Nome della Compagnia
+          sector: Settore
+          size: Valore
+        titles:
+          competitors: Chi sono le compagnie concorrenti?
+          main: Descrizione della Compagnia
+      dividends:
+        titles:
+          competitors: Concorrenti che pagano i Dividendi
+          forecast: Prevsioni sui Dividendi a breve termine
+          main: Dividendi
+      growth:
+        titles:
+          comparison: Confronto tra le previsioni a breve e lungo termine.
+          growth: Previsione della Crescita a Lungo Termine
+          main: Tasso di Crescita Vs. le 5 Concorrenti che crescono più in fretta
+          profit: Previsioni sugli Utili a Breve Termine
+          sales: Previsione sulle Vendite a Breve Termine
+      labels:
+        forecasted: Previsione
+        historic: Ultimi 12 Mesi
+      latest:
+        forecasted:
+          dividend: Previsione sui Dividendi
+          eps: Previsione sugli Utili per Azione (EPS)
+          profit: Previsione sull'Utile Netto
+          sales: Previsione sulle Vendite
+        titles:
+          epsForecast: Previsioni sugli utili per azione (EPS) e rendimento dei dividendi
+          gross: Margine Lordo (%) Vs. 5 Concorrenti più Grandi
+          main: Ultimi Risultati
+          operating: Margine Operativo (%) Vs. 5 Concorrenti più Grandi
+          roe: Return on Equity (%) Vs. 5 Concorrenti più Grandi
+          salesForecast: Previsioni sulle Vendite e Utile Netto
+      panel:
+        description: Qui puoi trovare informazioni dettagliate su %n, che comprendono confronti con la concorrenza.
+        title: Dettaglio
+      peers:
+        table:
+          dps: DPS
+          eps: EPS
+          growth: Crescita
+          name: Nome
+          pe: PE Ratio
+          rating: Parametri Chiave
+          ric: RIC
+          upside: Upside
+        titles:
+          main: Compagnie Concorrenti
+      profitable:
+        titles:
+          epsForecast: Previsioni sull'EPS a Breve Termine
+          main: Redditizio
+          profitForecast: Previsioni sugli Utili a Breve Termine
+      stats:
+        data:
+          table:
+            cheaperOn: Meno caro dei concorrenti alla pari su %n di 10 parametri.
+            headers:
+              cheaper: Meno Cara?
+              competitors: Concorrenti
+              stock: Ultime
+            labels:
+              forecastedDividends: Rendita dei Dividendi (Prev.)
+              forecastedFcfYield: Free Cash Flow in % (Storico)
+              forecastedPe: Rapporto prezzo/utili (PE, prev.)
+              forecastedSales: Prezzo alle Vendite (Prev.)
+              historicBookValue: Prezzo/valore contabile (Storico)
+              historicDividends: Rendimento del dividendo (Storico)
+              historicEquity: Return on Equity (Storico)
+              historicPe: Rapporto prezzo/utili (PE, storico)
+              historicProfit: Prezzo a Utile Operativo (Storico)
+              historicSales: Prezzo alle Vendite (Storico)
+        market:
+          cash: Liquidità
+          debt: Debito Netto
+          enterprise: Valore dell'Impresa (EV)
+          market: Valore di Mercato
+          price: Prezzo dell'Azione
+          profit: Risultato Operativo
+          shares: Azioni Comuni
+          value: Valore di Mercato
+        titles:
+          debt: Qual è il livello di Liquidità/Debito?
+          key: Statistiche Chiave
+          percent: La liquidità equivale al %n del valore di Mercato
+          ratio: Il livello del Debito Netto è %n dell'Utile Operativo
+          unavailable: Analisi di cassa o debito non disponibile
+          upside: Upside /Downside al prezzo più alto/basso delle ultime 52 settimane
+          valuations: Multipli di Valutazione
+          warning: 'Attenzione:'
+        volumes:
+          daily: Volume di Scambio Quotidiano
+          today: Oggi il Volume è
+      upside:
+        title: Rapporto prezzo/utili (PE). I 5 concorrenti meno cari
+      wallStreet:
+        titles:
+          competitors: Consigli sui Concorrenti
+          main: Rialzo Vs. 5 Concorrenti con Rialzo più Elevato
+          oneMonth: Un Mese Fa
+          oneWeek: Una Settimana Fa
+          recommendation: Cambiamenti nel Consiglio di Wall Street
+          threeMonth: Tre Mesi Fa
+          today: Oggi
+      worth:
+        title: Quanto vale?
+    innerTypes:
+      description:
+        description: Leggi l'analisi e la descrizione di questa compagnia su Stockflare.
+        title: Descrizione della Compagnia
+      dividends:
+        description:
+          fallback: Wall Street non prevede alcun DPS (dividendi per azione). Scopri perché su Stockflare.
+          valid: Wall Street prevede %n di dividendi per azione. Scopri di più su Stockflare
+        title: Dividendi
+      growth:
+        description:
+          fallback: Questa compagnia cresce più lentamente rispetto alle concorrenti. Scopri perché su Stockflare.
+          terms:
+            high: più forte
+            low: più debole
+          valid: Gli utili di questa azione sono previsti in crescita di %n% per anno a lungo termine, che è %n dei concorrenti. Scopri di più su Stockflare.
+        title: Crescita
+      latest:
+        description: Leggi gli ultimi risultati e ottieni i dati finanziari di questa azione su Stockflare.
+        title: Ultimi Risultati
+      peers:
+        description:
+          valid: Questa compagnia ha %n concorrenti. Confronta le statistiche chiave su Stockflare
+        title: Lista dei Concorrenti
+      profitable:
+        description:
+          fallback: Wall Street non prevede alcun utile per azione. Scopri perché su Stockflare.
+          valid: Wall Street prevede %n utili (EPS) per questa azione. Scopri di più su Stockflare.
+        title: Utile / Perdita
+      stats:
+        description:
+          terms:
+            cheaper: meno caro
+            expensive: cara
+          valid: Questa azione ha un valore di mercato di %n e la sua valutazione è %n in base a %n dei nostri 9 parametri. Scopri di più su Stockflare.
+        title: Statistiche Chiave
+      upside:
+        description:
+          fallback: Questa azione è più cara delle concorrenti. Scopri di più su Stockflare.
+          terms:
+            cheap: a buon mercato
+            expensive: costosa
+          valid: Questa azione è scambiata a %nx volte gli utili ed è %n confrontata alle concorrenti. Scopri di più su Stockflare.
+        title: Caro o a Buon Mercato
+      wallStreet:
+        description:
+          fallback: Wall Street non ha alcuna opinione su questa azione. Scopri perché su Stockflare.
+          terms:
+            downside: ribasso
+            upside: rialzo
+          valid: Wall Street raccomanda %n per questa azione con un Target Price di %n. Questo implica una %n% %n. Scopri di più su Stockflare.
+        title: Opinione di Wall Street
+      worth:
+        description:
+          fallback: Scopri su Stockflare perché questa azione è prevista in guadagno o perdita nei prossimi 7 anni.
+          terms:
+            gain: guadagno
+            lose: perdita
+          valid: Questa azione è prevista in %n %n% per anno nei prossimi 7 anni.
+        title: Quanto vale?
+    notification:
+      insufficientData: Non abbiamo abbastanza dati per effettuare questo calcolo
+      stale: Le informazioni per questa azione non sono state aggiornate per almeno 10 giorni e potrebbero ora essere stabili.
+      updating: Stiamo aggiornando la nostra analisi per questa azione. Prego controllare tra 15 minuti.
+      widgetUpdating: Aggiornamento dei calcoli.
+    og:
+      description: Questa azione è al momento giudicata %n. È possibile trovare maggiori informazioni su Stockflare.
+      title: Informazioni su %n da Stockflare
+    priceChange:
+      down: Calo
+      price:
+        title: Variazione del Prezzo
+      profitability:
+        epsToday: Oggi è %n
+        epsWas: '%t(eps){Benefici-per-Azione} era %n.'
+        forecastEpsWas: La previsione dei %t(eps){Benefici-per-Azione} era %n.
+        title: Evoluzione della Redditività?
+      sentiment:
+        forecastPeWas: 'La previsione del %t(pe){Rapporto prezzo/utili (PE)} era %nx. '
+        peToday: Oggi è %nx
+        peWas: '%t(pe){Rapporto prezzo/utili (PE)} era %n.'
+        title: Variazione dell'Investor Sentiment?
+      title: Che cosa sta guidando la variazione del prezzo?
+      up: Aumento
+    profitable:
+      forecastedDescription: Previsioni sui %t(eps){Benefici-per-Azione}.
+      latestDescription: Recenti %t(eps){Benefici-per-Azione}.
+      title: Redditizio?
+    ratings:
+      cheaper:
+        negative: Più cara delle concorrenti
+        positive: Meno cara delle concorrenti
+      dividends:
+        negative: Non versa i dividendi
+        positive: Versa i dividendi
+      high_growth:
+        negative: Crescità più debole rispetto ai concorrenti
+        positive: Crescita più forte rispetto ai concorrenti
+      profitable:
+        negative: Non redditizia
+        positive: Compagnia redditizia
+      upside:
+        negative: '%n di meno del Target Price'
+        neutral: Nessuna differenza rispetto al Target Price
+        positive: +%n in più del Target Price
+        unknown: Target Price sconosciuto
+    social:
+      email: Email a un amico
+    stats:
+      fifty_two_week: Il più Alto/Basso delle ultime 52 Settimane.
+      industry: Industria
+      value: Valore
+      website: Il Sito della Compagnia
+    targetPrice:
+      decrease: '%t(downside){di diminuzione}.'
+      description: Un %n sul prezzo odierno.
+      equal: Nessuna variazione
+      increase: '%t(upside){di aumento}.'
+      recommendations:
+        buy: Il %t(recommendation){consiglio} di Wall Street è Compra.
+        hold: Il %t(recommendation){consiglio} di Wall Street è Tieni.
+        sell: Il %t(recommendation){consiglio} di Wall Street è Vendi.
+        strong_buy: Il %t(recommendation){consiglio} di Wall Street è Compra Subito.
+        strong_sell: Il %t(recommendation){consiglio} di Wall Street è Vendi Subito.
+      title: Target Price di Wall Street
+    worth:
+      annotations:
+        annually: Per Anno
+        gain:
+          negative: Perdita sui 7 Anni
+          positive: Guadagno sui 7 Anni
+        growth: Previsione di Crescita sui 7 anni
+        value: Valore totale tra 7 anni
+      copy:
+        absoluteGain:
+          negative: '%n diminuisce a %n sui 7 anni'
+          positive: '%n aumenta a %n sui 7 anni'
+        gainPerYear:
+          negative: Perdita di %n per anno
+          positive: Guadagno di %n per anno
+        relativeGain:
+          negative: Perdita di %n sui 7 anni
+          positive: Guadagno di %n sui 7 anni
+        sevenYearGain:
+          negative: Perde %n sui 7 anni
+          positive: Guadagna %n sui 7 anni
+        value:
+          text: Azioni valutate a %n
+      descriptions:
+        growth:
+          negative: Il valore corrente di %n è previsto in diminuzione di %n su un periodo si 7 anni.
+          positive: Il valore corrente di %n è previsto in aumento di %n su un periodo di 7 anni.
+        return: La previsione utilizza la cifra di crescita a lungo termine di Wall Street, previsioni dei dividendi e la valutazione attuale.
+      flash:
+        another: Aggiunte altre %n azioni @ %n per %n
+        first: Aggiunte %n azioni @ %n per %n
+      footnote: Presupponiamo una crescita annua dell'8% per i calcoli qui sopra.
+      forecast:
+        title: è Prevista in
+      inputs:
+        button: Aggiungi %n Azioni @ %n
+        price: Imposta il Prezzo d'Acquisto
+        shares: Imposta il numero delle azioni
+        watchlist: Seleziona la Lista
+      result:
+        title: Quello Significa
+      title: Qual è il valore di %n a lungo termine?
+      titles:
+        growth: Crescita dell'Investimento
+        return: Ritorno previsto in 7 anni
+      today:
+        description: Inserisci il numero delle azioni qui sotto
+        submitNotWatching: Aggiungi l'azione alla Lista
+        submitWatching: Aggiorna l'azione sulla Lista
+        title: Oggi Possiedo
+        unsaved: Hai delle modifiche non salvate
+  stocks:
+    apply: Applica Filtri
+    matches: Trovate Azioni
+    messages:
+      loadMore: Mostra di più (%n rimanenti)
+      loading: Caricamento delle Azioni
+      noMatches: Spiacenti, nessuna azione che corrisponde ai criteri di ricerca
+      noMoreMatches: Non ci sono altre azioni disponibili
+    og:
+      description: 'Stockflare ti aiuta ad avere nuove idee. Trova idee per le azioni: qual è la qualità del tuo portafoglio?'
+      title: Investire Diventa Facile
+    reset: Reimposta i Filtri
+  tooltip:
+    acronyms:
+      dps: Dividendi per Azione
+      eps: Utili per Azione
+      growth: Previsione di Crescita a Lungo Termine
+      pe: Rapporto Prezzo-Utili (PE Ratio)
+      rating: Parametri Chiave (Stelle) di Stockflare
+      ric: Reuters ticker code
+    explanations:
+      downside: I brokers pubblicano quello che credono essere il prezzo giusto per un'azione, che è chiamato Target Price. Il nostro fornitore di dati calcola la media da questi. Qui mostriamo, dal prezzo odierno, il ribasso percentuale dal Target Price di "Wall Street". Attenzione, questo deriva da un'opinione soggettiva di questi esperti, non oggettiva.
+      dps: Una compagnia paga i dividendi come una banca paga gli interessi. I Dividendi per Azione (DPS) sono ciò che ricevi per ogni azione che possiedi.
+      eps: L'utile di una compagnia appartiene agli azionisti. Gli Utili per Azione (EPS) sono ciò che in teoria guadagni per ogni azione che possiedi.
+      pe: Il rapporto prezzo-utili (PE Ratio) mostra il prezzo dell'azione diviso per gli utili per azione. Più alto è questo rapporto, più l'azione è cara.
+      recommendation: I broker pubblicano una raccomandazione a Comprare/Vendere/Tenere per ogni azione che analizzano. Il nostro fornitore di dati, Thomson Reuters, calcola una media di questi consigli, che è un buon indicatore del "sentimento di Wall Street"; ma attenzione, è pur sempre un'opinione soggettiva, non oggettiva.
+      upside: I brokers pubblicano quello che credono essere il prezzo giusto per un'azione, che è chiamato Target Price. Il nostro fornitore di dati calcola la media da questi. Qui mostriamo, dal prezzo odierno, il rialzo percentuale dal Target Price di "Wall Street". Attenzione, questo deriva da un'opinione soggettiva di questi esperti, non oggettiva.
+  user:
+    fields:
+      confirmPassword: Conferma la Password
+      currency: Valuta
+      current: Password attuale
+      email: Indirizzo Email
+      language: Lingua
+      location: Localizzazione
+      mfa: Codice di Autentificazione MFA
+      name: Nome Completo
+      otpA: Primo Codice
+      otpB: Secondo Codice
+      otpC: Terzo Codice
+      otpD: Quarto Codice
+      otpE: Quinto Codice
+      otpF: Sesto Codice
+      password: Password
+    messages:
+      language: Clicca qui per ricaricare la pagina nella lingua selezionata
+    options:
+      logout: Logout
+      settings: Impostazioni
+    validation:
+      email:
+        required: Indirizzo Email richiesto
+        validity: Questo indirizzo email non è valido
+      name:
+        validity: Il nome inserito non è valido
+      otp:
+        length: Codice di autentificazione MFA invalido. Sono richieste sei cifre.
+        required: È richiesto un codice MFA valido
+      password:
+        mismatch: Le password non corrispondono
+        required: Richiesta una password
+        tooLong: Questa password è troppo lunga
+        tooShort: Questa password è troppo corta
+  watchlist:
+    actualChange: Variazione Assoluta (1 Giorno)
+    balance:
+      balance:
+        over: è sovrabilanciato di %n
+        under: è sottobilanciato di %n
+      balanced: Il tuo portafoglio è bilanciato
+      phrase:
+        negative: Sbilanciato
+        neutral: Moderatamente Bilanciato
+        positive: Bilanciato
+      title: Concentrazione per Titoli
+      tooltip: 100 % significa che il tuo portafoglio è allocato equamente, in termini di valore, nello spettro dei tuoi titoli. Più si allontana dal 100 % e più il tuo portafoglio è concentrato in pochi titoli chiave.
+    breakdown:
+      columns:
+        actions: Passi da compiere
+        gain: Ritorno in 7 anni
+        name: Nome della Compagnia
+        price: Oggi
+        purchased: Prezzo di acquisto
+        rating: Classificazione a Stelle
+        shares: Valore e Azioni
+      empty: 'Inizia aggiungendo alcuni titoli alla tua lista di osservazione qui in basso '
+      rows:
+        gain:
+          gain: '%n per anno'
+        purchased:
+          worth:
+            negative: Perdita di %n
+            positive: Guadagno di %n
+        today:
+          change: '%n oggi'
+      title: Disaggregazione del mio portafoglio
+    create:
+      button: Crea Lista
+      fields:
+        name: Nome della Lista
+      points:
+        infinite:
+          subtitle: Non c'è alcun limite alla nostra Lista, puoi aggiungere quante azioni desideri.
+          title: Dimensione Infinita
+        monitor:
+          subtitle: Determina facilmente le migliori e peggiori azioni della tua Lista grazie alle nostre analisi.
+          title: Controlla la Performance
+        positions:
+          subtitle: Aggiungi azioni e prezzo di acquisto per ottenere un'analisi del portafoglio realistica.
+          title: Aggiungi la quantità di azioni
+      subtitle: Le Liste su Stockflare sono molto più di un normale portafoglio.
+      title: Crea una Lista
+    danger:
+      button: Elimina la lista di osservazione
+      description: L'eliminazione della tua lista di osservazione cancellerà definitivamente tutti i dati che sono stati archiviati sui nostri server. Questa azione è irreversibile.
+      title: Zona a rischio
+    defaultName: La mia Lista
+    footnote: '* Nel caso non abbiamo alcun dato, usiamo un tasso di crescita dell''8%.'
+    pageDescription: La tua Lista contiene un riassunto sul tuo portafoglio e degli avvisi recenti sulle azioni più viste.
+    pageTitle: La mia Lista
+    percentChange: Variazione Percentuale
+    portfolioTable:
+      difference: Un guadagno di (USD) %n
+      forecastGrowth: Crescita prevista *
+      gain: Guadagno annuale di %n%
+      name: Nome della Compagnia
+      price: Oggi
+      projected: In 7 anni (USD) %n
+      purchased: Comprata a
+      sevenYears: In 7 Anni (USD)
+      shares: N° di Azioni
+      total: Totale %n
+      usValue: Valore (USD)
+      value: Valore
+    projected: Informazioni dettagliate sul Portafoglio
+    sector:
+      missing: 'Settori mancanti:'
+      title: Concentrazione per settori
+      tooltip: Il valore del tuo portafoglio diviso in 10 settori chiave.
+    summary:
+      summaries:
+        gain:
+          notWatchingStocks: Aggiungi azioni alla Lista per ricevere i dati sulla loro crescita media.
+          projectedGain: una crescita media dell'%n% dal %n odierno
+          projectedValue: Il portafoglio è previsto di un valore %n in 7 anni
+        opinion:
+          notWatchingStocks: Aggiungi azioni alla Lista per avere accesso alla sua valutazione.
+          stars: La nostra valutazione sul portafoglio è %n
+          ws: Wall Street pensa che valga %n.
+      titles:
+        alerts: Avvisi Recenti
+        gain: Guadagno sui 7 Anni
+        opinion: Parametri Chiave della Lista
+    wallStreet:
+      title: Target Price e Consigli di Wall Street
+      upside:
+        missing: Rialzo N/A
+        text: Rialzo del %n%
+    warningSubtitle: Non perdere la tua Lista, essa è salvata solo temporaneamente. Registrati o effettua il Login per salvarla.
+    warningTitle: Hai aggiunto azioni alla Lista senza registrarti o effettuare il Login!
+    watching: Tutta la Lista
+    watchingPhrase: '%n Compagnie'
+    worth: Valore Totale
+  watchlists:
+    connect: Nuova intermediazione
+    delete: Sei sicuro di voler cancellare '%n'?
+    pageTitle: Le mie Liste
+    subtitles:
+      connected: Intermediazioni collegate
+      watchlists: Liste di osservazione
+    titles:
+      actual: Variazione Assoluta
+      change: Variazione Percentuale
+      count: Nella Lista
+      inactive: '%n titoli fermi'
+      mover: Variazione più forte
+      rating: Rating del portafoglio
+      return: Rendimento totale
+      stocks: '%n Azioni'
+      worth: Valore Totale

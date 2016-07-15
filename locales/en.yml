@@ -1,0 +1,2632 @@
+en:
+  drivewealth:
+    information:
+      title: Start Investing in the US
+      copy: Stockflare users, anywhere in the world can open a US brokerage account with our partner DriveWealth, and invest in the largest stock market in the world.
+      features:
+        first:
+          title: A Global Account
+          description: Our partner DriveWealth serves clients in over 20 countries around the world.
+        second:
+          title: Stockflare Integration
+          description: Simply connect your account to bring your DriveWealth account inside Stockflare.
+        third:
+          title: Competitive Service
+          description: Less than $3 a trade, with access to the largest 1,500 companies traded in the US.
+      cost: $3 Per Trade
+      summary: (Sign up from anywhere, full integration with Stockflare)
+      cta: Join Today
+    account:
+      title: Ready to connect your DriveWealth Account?
+      description: Have you completed the sign-up to DriveWealth?  Great! Let's now connect your shiny new US brokerage account into Stockflare. Click below to get all of Stockflare's features integrated with your DriveWealth account.
+      buttons:
+        connect: Connect to Stockflare
+        back: Back to Create Brokerage
+
+  subscriptions:
+    subscribed:
+      title: Successfully Supercharged!
+      description: 'After the free trial, we will get in contact to ask for your card details. Then, if you sign-up, you will be billed %n until the plan is canceled.'
+      buttons:
+        portfolio: View my Portfolio
+        alerts: View my Alerts
+    payment:
+      pay: 'Pay %n'
+      details:
+        number: Credit/ debit card number
+        expiry: Expiration
+        cvc: CVC Number
+      errors:
+        number: Invalid card number
+        expiry: Invalid card expiry date
+        cvc: Invalid CVC Number
+    information:
+      title: Super Charge Your Investing
+      copy: With Stockflare's Plus service you can empower your investing. Get access to our best tools and analytics for a simple flat fee. Let us keep track of your stocks and help improve how you manage your investments.
+      plans:
+        silver:
+          title: "Stockflare Plus"
+          features:
+            first:
+              title: Smart Alerts
+              description: You need more than just price alerts. Get alerts on how the underlying business is performing. Best you know if the business is turning sour!
+            second:
+              title: Connected Portfolios
+              description: Connect your brokerage account and we'll provide a regular healthcheck on your investments and signal when you should think about rebalancing.
+            third:
+              title: Notifications
+              description: With our notification service, sleep easy knowing we are watching your investments ready to notify you, if you've a critical decision to make.
+          cta: Try for Free (14 Days)
+          upgrade: Set payment details
+          trialing: Trialing - Set payment details
+          active: Already Subscribed
+          cost: $5 per month
+          summary: (Smart Alerts, Your Portfolio, Notifications)
+          payment:
+            description: Billed monthly after your trial ends.
+            button: Subscribe
+
+  notifications:
+    split:
+      positive: 'There has been a stock split for %short_name on %split_date with a split ratio of %ratio. The price today is %price versus %price_yesterday on %timestamp.'
+    consolidation:
+      negative: 'There has been a stock consolidation for %short_name on %split_date with a consolidation ratio of %ratio. The price today is %price versus %price_yesterday on %timestamp.'
+    price_intraday:
+      positive: '%short_name is up %price_change today.'
+      negative: '%short_name is down %price_change today.'
+    volume_intraday:
+      positive: 'Heavy trading in %short_name today, the price is up %price_change.'
+      negative: 'Heavy trading in %short_name today, the price is down %price_change.'
+    stars:
+      positive: '%short_name has gained a star, now a %rating star stock.'
+      negative: '%short_name has lost a star, now a %rating star stock.'
+    price_small_cap:
+      positive: '%short_name rose %price_change on %timestamp.'
+      negative: '%short_name fell %price_change on %timestamp.'
+    price_large_cap:
+      positive: '%short_name rose %price_change on %timestamp.'
+      negative: '%short_name fell %price_change on %timestamp.'
+    volume_ten_day:
+      positive: '%short_name price was up %price_change in heavy trading on %timestamp.'
+      negative: '%short_name price was down %price_change in heavy trading on %timestamp.'
+    recommendation:
+      positive: 'The recommendation for %short_name has been upgraded to %recommendation_text.'
+      negative: 'The recommendation for %short_name has been downgraded to %recommendation_text.'
+    price_peer:
+      positive: 'A peer of %short_name, %peer_short_name was up %peer_price_change on %timestamp.'
+      negative: 'A peer of %short_name, %peer_short_name was down %peer_price_change on %timestamp.'
+    pe:
+      positive: '%short_name is cheaper today at %forecast_pe than it was a week ago at %forecast_pe_one_week_ago.'
+      negative: '%short_name is more expensive today at %forecast_pe than it was a week ago at %forecast_pe_one_week_ago.'
+    growth_trend:
+      positive: 'The long term growth forecast for %short_name has increased substantially in the last week to %long_term_growth from %long_term_growth_one_week_ago.'
+      negative: 'The long term growth forecast for %short_name has decreased substantially in the last week to %long_term_growth from %long_term_growth_one_week_ago.'
+    growth_turn:
+      positive: 'The long term growth forecast for %short_name has just turned positive at %long_term_growth from %long_term_growth_yesterday on %timestamp.'
+      negative: 'The long term growth forecast for %short_name has just turned negative at %long_term_growth from %long_term_growth_yesterday on %timestamp.'
+    sales_trend:
+      positive: 'Forecast sales for %short_name are now forecast to rise this year.'
+      negative: 'Forecast sales for %short_name are no longer forecast to rise this year.'
+    target_trend:
+      positive: 'The target price for %short_name has increased to %target_price from %target_price_one_week_ago in the last week.'
+      negative: 'The target price for %short_name has fallen to %target_price from %target_price_one_week_ago in the last week.'
+    target_turn:
+      positive: 'The target price for %short_name of %target_price is now above that latest price of %price.'
+      negative: '%short_name current price of %price is now higher than the target price of %target_price.'
+    eps_trend:
+      positive: 'The forecast EPS for %short_name has increased to %forecast_eps from %forecast_eps_one_week_ago in the last week.'
+      negative: 'The forecast EPS for %short_name has decreased to %forecast_eps from %forecast_eps_one_week_ago in the last week.'
+    eps_turn:
+      positive: 'The forecast EPS for %short_name has been upgraded to a profit of %forecast_eps. The old forecast was for a loss of %forecast_eps_yesterday.'
+      negative: 'The forecast EPS for %short_name has been downgraded to a loss of %forecast_eps. The old forecast was for a profit of %forecast_eps_yesterday.'
+    eps_growth:
+      positive: 'The earnings of %short_name are now forecast to grow.'
+      negative: 'The earnings of %short_name are now forecast to decline.'
+    dps_trend:
+      positive: 'The forecast dividend for %short_name has increased to %forecast_dps per share from %forecast_dps_one_week_ago in the last week.'
+      negative: 'The forecast dividend for %short_name has decreased to %forecast_dps per share from %forecast_dps_one_week_ago in the last week.'
+    dps_turn:
+      positive: '%short_name is now forecast to pay a dividend of %forecast_dps. Previously, no dividend was forecast.'
+      negative: '%short_name is now forecast to pay no dividend. Previously a dividend per share of %forecast_dps_yesterday was forecast.'
+    dps_warning:
+      positive: '%short_name is now forecast to report more earnings than dividends. Previously the forecast earnings were not sufficient to cover the expected dividend payment.'
+      negative: '%short_name forecast earnings per share of %forecast_eps are no longer expected to be sufficient to cover forecast dividends of %forecast_dps per share.'
+    dps_growth:
+      positive: 'The dividend per share of %short_name is now forecast to grow.'
+      negative: 'The dividend per share of %short_name is now forecast to decline.'
+    debt_net:
+      positive: '%short_name now holds net cash equal to %net_cash_to_share_price of its share price. Previously it was in a net debt position.'
+      negative: '%short_name has moved into a position of net debt, having previously run a net cash balance.'
+    debt_danger:
+      positive: '%short_name net debt to operating ratio has fallen to %net_debt_to_operating_profit.'
+      negative: '%short_name net debt to operating ratio has risen to %net_debt_to_operating_profit.'
+    cash:
+      positive: "%short_name has seen a big increase in it's net cash position to %net_cash_to_share_price of its share price."
+      negative: "%short_name has seen a big decline in it's net cash position to %net_cash_to_share_price of its share price."
+    gain_trend:
+      positive: "The forecast long term gain for %short_name has increased substantially in the last week to %long_term_gain from %long_term_gain_one_week_ago."
+      negative: "The forecast long term gain for %short_name has decreased substantially in the last week to %long_term_gain from %long_term_gain_one_week_ago."
+    gain_turn:
+      positive: 'The forecast long term gain for %short_name has just turned positive at %long_term_gain from %long_term_gain_yesterday on %timestamp.'
+      negative: 'The forecast long term gain for %short_name has just turned negative at %long_term_gain from %long_term_gain_yesterday on %timestamp.'
+    stars_peers:
+      negative: '%short_name has fallen to a %rating star rating. Here is a list of its peers that are 4+ star stocks: %rics.'
+    price_eps_one_week:
+      positive: "%short_name's price is %price_change_one_week but the forecast earnings moved %forecast_eps_change_one_week over the last week."
+    price_eps_one_month:
+      positive: "%short_name's price is %price_change_one_month but the forecast earnings moved %forecast_eps_change_one_month over the last month."
+    eps_price_one_week:
+      positive: "%short_name's forecast earnings moved %forecast_eps_change_one_week over the last week, but the price is %price_change_one_week. It's PE ratio is now %forecast_pe."
+    eps_price_one_month:
+      positive: "%short_name's forecast earnings moved %forecast_eps_change_one_month over the last month, but the price is %price_change_one_month. It's PE ratio is now %forecast_pe."
+  about:
+    disclaimer: Stockflare provides information, not advice. Stockflare does not make recommendations. Any reference to “Buy”, “Sell”, “Hold”, or “Price Targets” for stocks, reflect the views of the “Wall Street” consensus.
+    from: Select data from
+    links:
+      about: About Us
+      blog: Blog
+      faq: FAQ
+      jobs: Jobs
+      landing: First Time?
+      learn: Learn
+      playground: Playground
+      privacy: Privacy Policy
+      tos: Terms of Service
+      team: Team
+      data: Our Data
+      contact: Contact
+    pricingData: All pricing data as of yesterday's close.
+    title: About Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Actions
+        gain: 7 Year Gain
+        name: Name
+        price: Today
+        purchased: Purchase Price
+        rating: Star Rating
+        shares: No. Shares
+      empty: No stocks in your account
+      refresh: Refresh account positions
+      rows:
+        gain:
+          gain: Gain
+      title: Portfolio Breakdown
+    broker:
+      unlink: Unlink broker %n and delete account information
+      unlinkError: Cound not unlink your account
+    danger:
+      button: Unlink broker
+      description: Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes.
+      title: Danger Zone
+    orders:
+      buying: Buying at %n
+      columns:
+        action: Action
+        name: Name
+        purchased: Purchase Price
+        sell: Sell Price
+        shares: No. Shares
+        total: Total
+      empty: No orders in this account
+      limit: Limit Price %n
+      market: Stop Price %n
+      selling: Selling at %n
+      shares: '%n Shares'
+      title: Trades
+    pageDescription: Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare.
+    pageTitle: My connected brokerage account
+    power: Buying Power
+  alerts:
+    pageTitle: My Alerts
+    none:
+      title: Smile, no alerts today
+      description: There are currently no triggered alerts for all your watchlists and portfolios.
+    empty:
+      title: No Watchlists or Portfolios
+      description: You have not yet connected your portfolio or watched any stocks. Once you are tracking stocks, you will begin to receive alerts.
+      buttons:
+        connect: Connect your Portfolio
+        watchlist: Find Stocks
+    buttons:
+      trial: Try Plus Alerts
+      upgrade: Upgrade to Plus Alerts
+  appender:
+    add: Add Stock
+    noMatches: 0 Matches
+    pressEnter: Press Enter to Add
+    search: Search
+  appenders:
+    watchlist:
+      create: New Watchlist
+  brokerage:
+    brokerages:
+      drivewealth: Drivewealth
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_king: Trade King
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: Success! Your Account is Connected
+        connecting: Secure ... Now Connecting ...
+        detail: We are creating a secure connection to your account
+        login: Checking Login Details
+      details:
+        button: Login & Connect
+        conditions: By clicking "Login & Connect" you are agreeing to Stockflare's Terms of Service.
+        id: Brokerage User ID
+        password: Brokerage Password
+        username: Brokerage Username
+        account: Brokerage Account Number
+      final:
+        description: Do a trade immediately? Or check out our smart analysis of your portfolio?
+        title: Trading Activated
+        to_portfolio: Go to Portfolio
+        to_stock: Trade %n?
+      help:
+        login:
+          robinhood: "Having difficulty connecting your Robinhood account? Please check you are entering your Robinhood username, not your email address. Also, it's your password, not your PIN number."
+        assistance:
+          description: Click here if you need our help connecting your account or have any questions about our service.
+          title: Need Assistance?
+        faq:
+          description: Here are a few of the most important questions we receive.
+          questions:
+            compare: How do different brokerages compare?
+            fees: Are there any fees?
+            secure: How secure is the connection?
+          title: Frequently Asked Questions
+        no_brokerage:
+          description: Check out %_blank(this link){http://brokerages.stockflare.com/} where you can pick the brokerage that's right for you.
+          title: No brokerage? No problem.
+      security:
+        button: Finish
+      select:
+        titles:
+          buttons:
+            connect: Connect
+            use: Use
+          existing: Connect to Brokerage Account
+          new: Add New Brokerage
+          sessions: Already Connected
+      steps:
+        choose: Choose Brokerage
+        details: Your Details
+        final: Finish
+        security: Security Questions
+      teaser:
+        alerts:
+          description: Not have enough time to track your portfolio? Let our smart alerts keep an eye on your investments for you.
+          title: Get Our Smart Alerts
+        encryption:
+          description: We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services.
+          title: Protected by Encryption
+        trade:
+          description: Find a great stock? Connect your brokerage account, then trade quickly and easily from inside Stockflare.
+          title: Trade through Stockflare
+        no_brokerage: "I don't have a Brokerage"
+      title: Connect Brokerage
+    flash:
+      positions_not_refreshed: We couldn't contact your brokerage to refresh your positions
+      positions_refreshed: Your portfolio positions have been updated
+      positions_refreshing: Refreshing your portfolio positions
+    portfolio:
+      alerts:
+        heading: n% Alerts
+      danger_zone:
+        button: Disconnect Account
+        cancel: Cancel Order
+        cancel_confirm: Are you sure you wish to cancel your order?
+        canceled: Successfully canceled your order of %n
+        canceled_error: Could not cancel your order of %n
+        cancelling: Cancelling your order of %n
+        warning: Disconnecting your brokerage account will remove all your data stored on our servers.
+      headings:
+        power: Buying Power
+      notes:
+        heading: n% Notes
+      table:
+        status: Status
+        statuses:
+          completed: Completed
+          failed: Failed
+          filling: Filling
+          pending: Pending
+        trades: Open Trades
+      unsupported: '%n Unsupported'
+      untracked: Unsupported by Stockflare
+    trade:
+      step_one:
+        buying:
+          price: Currently at %n
+          title: Buy
+        selling:
+          price: Currently at %n
+          title: Sell
+        title: Buying or Selling?
+        tooltip: 'We default trades to limit-orders, not at market, with the limit price set at the bid-ask spread. If you want to buy/sell regardless or price, please use the Advanced Settings to change the order type. We also default trades to expire at the end of the day. If you want to keep an order open indefinitely, please use the Advanced Settings to choose "Good until Cancelled". Note: we are not offering: the following order types: "Buy to Cover" or "Sell Short". Nor do we provide "Stop Limit" or "Stop Market" orders. If you would like those options, please let us know.'
+      step_three:
+        button:
+          buy: Purchase Shares (%n)
+          sell: Sell Shares (%n)
+        errors:
+          buying: your limit price %n is lower than the current ask price %n
+          selling: your limit price %n is higher than the current bid price %n
+        table:
+          brokerage: Brokerage
+          cost: Estimated Cost
+          expiration: Expiration
+          fees: Estimated Fees
+          return: Estimated Proceeds
+          shares: Quantity of Shares
+          ticker: Ticker
+          type: Type
+        title: Order Preview
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: Expires at end of the day
+              gtc: Order is good until you cancel it
+            prompt: Expiration
+            tooltip: We default trades to be valid for the day. You can switch this to (GTC) good 'til cancelled, if you wish.
+          order_type:
+            options:
+              limit: Limit Order
+              market: At Market Order
+            prompt: Order Type
+            tooltip: The default setting is a limit order, but if you want to trade, at market, regardless of the price, you can choose that option here.
+            warning: If you choose an "At Market" order you will trade regardless of the price. i.e. you will not set a maximimum price to buy or a minimum price to sell.
+          prompt: Show Advanced Settings
+          unprompt: Hide Advanced Settings
+        button: Preview Order
+        by_quantity: Advanced Options
+        by_amount: Basic Options
+        price:
+          buy: Buy at / or less than
+          sell: Sell at / or higher than
+          custom: Custom Amount
+          choose: Choose Amount
+          tooltip: This is a limit order, preset at the bid-ask spread. Click Advanced settings if you want to place a Market Order or a Limit order that is "good until close".
+        quantity:
+          note_no_shares: Currently, you do not own any shares in %n
+          note_own_shares: Today you own %n shares in %n
+          note_own_amount_shares: 'Today you own %n of shares in %n'
+          prompt: Quantity
+        title: Quantity & Price
+      thetrade:
+        description: Your order is in the process of being filled
+        title:
+          buy: Filling Buy Order
+          sell: Filling Sell Order
+        to_portfolio: Go to Portfolio
+        to_stocks: Go to Stocks
+        update:
+          no_success: Your order is not compete yet. We'll email you once it's finished.
+          success: Success. Your order is complete. The trade is done.
+      title: Trade %n
+      tradeupdate:
+        title: Update your order for %n
+  common:
+    alerts_emails:
+      true: Send emails
+      false: Dont send emails
+    countries:
+      afg: Afghanistan
+      ago: Angola
+      aia: Anguilla
+      ala: Åland Islands
+      alb: Albania
+      and: Andorra
+      are: United Arab Emirates
+      arg: Argentina
+      arm: Armenia
+      asm: American Samoa
+      ata: Antarctica
+      atf: French Southern Territories
+      atg: Antigua and Barbuda
+      aus: Australia
+      aut: Austria
+      aze: Azerbaijan
+      bdi: Burundi
+      bel: Belgium
+      ben: Benin
+      bes: Bonaire, Sint Eustatius and Saba
+      bfa: Burkina Faso
+      bgd: Bangladesh
+      bgr: Bulgaria
+      bhr: Bahrain
+      bhs: Bahamas
+      bih: Bosnia and Herzegovina
+      blm: Saint Barthélemy
+      blr: Belarus
+      blz: Belize
+      bmu: Bermuda
+      bol: Bolivia
+      bra: Brazil
+      brb: Barbados
+      brn: Brunei Darussalam
+      btn: Bhutan
+      bvt: Bouvet Island
+      bwa: Botswana
+      caf: Central African Republic
+      can: Canada
+      cck: Cocos (Keeling) Islands
+      che: Switzerland
+      chl: Chile
+      chn: China
+      civ: Côte d'Ivoire
+      cmr: Cameroon
+      cod: Democratic Republic of the Congo
+      cog: Congo
+      cok: Cook Islands
+      col: Colombia
+      com: Comoros
+      cpv: Cabo Verde
+      cri: Costa Rica
+      cub: Cuba
+      cuw: Curaçao
+      cxr: Christmas Island
+      cym: Cayman Islands
+      cyp: Cyprus
+      cze: Czech Republic
+      deu: Germany
+      dji: Djibouti
+      dma: Dominica
+      dnk: Denmark
+      dom: Dominican Republic
+      dza: Algeria
+      ecu: Ecuador
+      egy: Egypt
+      eri: Eritrea
+      esh: Western Sahara
+      esp: Spain
+      est: Estonia
+      eth: Ethiopia
+      fin: Finland
+      fji: Fiji
+      flk: Falkland Islands
+      fra: France
+      fro: Faroe Islands
+      fsm: Micronesia
+      gab: Gabon
+      gbr: United Kingdom
+      geo: Georgia
+      ggy: Guernsey
+      gha: Ghana
+      gib: Gibraltar
+      gin: Guinea
+      glp: Guadeloupe
+      gmb: Gambia
+      gnb: Guinea-Bissau
+      gnq: Equatorial Guinea
+      grc: Greece
+      grd: Grenada
+      grl: Greenland
+      gtm: Guatemala
+      guf: French Guiana
+      gum: Guam
+      guy: Guyana
+      hkg: Hong Kong
+      hmd: Heard Island and McDonald Islands
+      hnd: Honduras
+      hrv: Croatia
+      hti: Haiti
+      hun: Hungary
+      idn: Indonesia
+      imn: Isle Of Man
+      ind: India
+      iot: British Indian Ocean Territory
+      irl: Ireland
+      irn: Iran
+      irq: Iraq
+      isl: Iceland
+      isr: Israel
+      ita: Italy
+      jam: Jamaica
+      jey: Jersey
+      jor: Jordan
+      jpn: Japan
+      kaz: Kazakhstan
+      ken: Kenya
+      kgz: Kyrgyzstan
+      khm: Cambodia
+      kir: Kiribati
+      kna: Saint Kitts and Nevis
+      kor: South Korea
+      kwt: Kuwait
+      lao: Lao
+      lbn: Lebanon
+      lbr: Liberia
+      lby: Libya
+      lca: Saint Lucia
+      lie: Liechtenstein
+      lka: Sri Lanka
+      lso: Lesotho
+      ltu: Lithuania
+      lux: Luxembourg
+      lva: Latvia
+      mac: Macao
+      maf: Saint Martin
+      mar: Morocco
+      mco: Monaco
+      mda: Moldova
+      mdg: Madagascar
+      mdv: Maldives
+      mex: Mexico
+      mhl: Marshall Islands
+      mkd: Macedonia
+      mli: Mali
+      mlt: Malta
+      mmr: Myanmar
+      mne: Montenegro
+      mng: Mongolia
+      mnp: Northern Mariana Islands
+      moz: Mozambique
+      mrt: Mauritania
+      msr: Montserrat
+      mtq: Martinique
+      mus: Mauritius
+      mwi: Malawi
+      mys: Malaysia
+      myt: Mayotte
+      nam: Namibia
+      ncl: New Caledonia
+      ner: Niger
+      nfk: Norfolk Island
+      nga: Nigeria
+      nic: Nicaragua
+      niu: Niue
+      nld: Netherlands
+      nor: Norway
+      npl: Nepal
+      nru: Nauru
+      nzl: New Zealand
+      omn: Oman
+      pak: Pakistan
+      pan: Panama
+      pcn: Pitcairn
+      per: Peru
+      phl: Philippines
+      plw: Palau
+      png: Papua New Guinea
+      pol: Poland
+      pri: Puerto Rico
+      prk: North Korea
+      prt: Portugal
+      pry: Paraguay
+      pse: Palestine
+      pyf: French Polynesia
+      qat: Qatar
+      reu: Réunion
+      rou: Romania
+      rus: Russia
+      rwa: Rwanda
+      sau: Saudi Arabia
+      sdn: Sudan
+      sen: Senegal
+      sgp: Singapore
+      sgs: South Georgia
+      shn: Saint Helena
+      sjm: Svalbard
+      slb: Solomon Islands
+      sle: Sierra Leone
+      slv: El Salvador
+      smr: San Marino
+      som: Somalia
+      spm: Saint Pierre and Miquelon
+      srb: Serbia
+      ssd: South Sudan
+      stp: Sao Tome and Principe
+      sur: Suriname
+      svk: Slovakia
+      svn: Slovenia
+      swe: Sweden
+      swz: Swaziland
+      sxm: Sint Maarten
+      syc: Seychelles
+      syr: Syria
+      tca: Turks and Caicos Islands
+      tcd: Chad
+      tgo: Togo
+      tha: Thailand
+      tjk: Tajikistan
+      tkl: Tokelau
+      tkm: Turkmenistan
+      tls: Timor-Leste
+      ton: Tonga
+      tto: Trinidad and Tobago
+      tun: Tunisia
+      tur: Turkey
+      tuv: Tuvalu
+      twn: Taiwan
+      tza: Tanzania
+      uga: Uganda
+      ukr: Ukraine
+      umi: United States Minor Outlying Islands
+      ury: Uruguay
+      usa: United States
+      uzb: Uzbekistan
+      vat: Holy See
+      vct: Saint Vincent and the Grenadines
+      ven: Venezuela
+      vgb: British Virgin Islands
+      vir: US Virgin Islands
+      vnm: Vietnam
+      vut: Vanuatu
+      wlf: Wallis and Futuna
+      wsm: Samoa
+      yem: Yemen
+      zaf: South Africa
+      zmb: Zambia
+      zwe: Zimbabwe
+    currencies:
+      names:
+        aed: United Arab Emirates dirham
+        afn: Afghan afghani
+        all: Albanian lek
+        amd: Armenian dram
+        ang: Netherlands Antillean guilder
+        aoa: Angolan kwanza
+        ars: Argentine Peso
+        aud: Australian dollar
+        awg: Aruban florin
+        azn: Azerbaijani manat
+        bam: Bosnia and Herzegovina convertible mark
+        bbd: Barbadian dollar
+        bdt: Bangladeshi taka
+        bgn: Bulgarian lev
+        bhd: Bahraini dinar
+        bif: Burundian franc
+        bmd: Bermudian dollar
+        bnd: Brunei dollar
+        bob: Bolivian boliviano
+        brl: Brazilian real
+        bsd: Bahamian dollar
+        btn: Bhutanese ngultrum
+        bwp: Botswana Pula
+        byr: Belarusian ruble
+        bzd: Belize Dollar
+        cad: Canadian dollar
+        cdf: Congolese franc
+        chf: Swiss franc
+        clf: Unidad de Fomento
+        clp: Chilean peso
+        cny: Renminbi
+        cop: Colombian peso
+        crc: Costa Rican colón
+        cup: Cuban peso
+        cve: Cape Verdean escudo
+        czk: Czech koruna
+        djf: Djiboutian franc
+        dkk: Danish krone
+        dop: Dominican peso
+        dzd: Algerian dinar
+        egp: Egyptian pound
+        ern: Eritrean nakfa
+        etb: Ethiopian birr
+        eur: Euro
+        fjd: Fijian dollar
+        fkp: Falkland Islands Pound
+        gbp: Pound sterling
+        gel: Georgian lari
+        ghs: Ghana Cedi
+        gip: Gibraltar pound
+        gmd: Gambian dalasi
+        gnf: Guinean franc
+        gtq: Guatemalan quetzal
+        gyd: Guyanese dollar
+        hkd: Hong Kong dollar
+        hnl: Honduran lempira
+        hrk: Croatian kuna
+        htg: Haitian gourde
+        huf: Hungarian forint
+        idr: Indonesian rupiah
+        ils: Israeli new shekel
+        inr: Indian rupee
+        iqd: Iraqi dinar
+        irr: Iranian rial
+        isk: Icelandic króna
+        jmd: Jamaican dollar
+        jod: Jordanian dinar
+        jpy: Japanese yen
+        kes: Kenyan shilling
+        kgs: Kyrgyzstani som
+        khr: Cambodian riel
+        kmf: Comorian franc
+        kpw: North Korean won
+        krw: South Korean won
+        kwd: Kuwaiti dinar
+        kyd: Cayman Islands dollar
+        kzt: Kazakhstani tenge
+        lak: Lao kip
+        lbp: Lebanese pound
+        lkr: Sri Lankan rupee
+        lrd: Liberian dollar
+        lsl: Lesotho loti
+        ltl: Lithuanian litas
+        lyd: Libyan dinar
+        mad: Moroccan dirham
+        mdl: Moldovan leu
+        mga: Malagasy ariary
+        mkd: Macedonian denar
+        mmk: Burmese kyat
+        mnt: Mongolian tögrög
+        mop: Macanese pataca
+        mro: Mauritanian ouguiya
+        mur: Mauritian rupee
+        mvr: Maldivian rufiyaa
+        mwk: Malawian kwacha
+        mxn: Mexican peso
+        myr: Malaysian ringgit
+        mzn: Mozambican metical
+        nad: Namibian dollar
+        ngn: Nigerian naira
+        nio: Nicaraguan córdoba
+        nok: Norwegian krone
+        npr: Nepalese rupee
+        nzd: New Zealand dollar
+        omr: Omani rial
+        pab: Panamanian balboa
+        pen: Peruvian nuevo sol
+        pgk: Papua New Guinean kina
+        php: Philippine peso
+        pkr: Pakistani rupee
+        pln: Poland Zloty
+        pyg: Paraguayan guaraní
+        qar: Qatari riyal
+        ron: Romanian leu
+        rsd: Serbian dinar
+        rub: Russian ruble
+        rwf: Rwandan franc
+        sar: Saudi riyal
+        sbd: Solomon Islands dollar
+        scr: Seychellois rupee
+        sdg: Sudanese pound
+        sek: Swedish krona
+        sgd: Singapore dollar
+        shp: Saint Helena pound
+        sll: Sierra Leonean leone
+        sos: Somali shilling
+        srd: Surinamese dollar
+        std: São Tomé and Príncipe dobra
+        svc: Salvadoran colón
+        syp: Syrian pound
+        szl: Swazi lilangeni
+        thb: Thai baht
+        tjs: Tajikistani somoni
+        tmt: Turkmenistan manat
+        tnd: Tunisian dinar
+        top: Tongan paʻanga
+        try: Turkish lira
+        ttd: Trinidad and Tobago dollar
+        twd: Taiwan New dollar
+        tzs: Tanzanian shilling
+        uah: Ukrainian hryvnia
+        ugx: Ugandan shilling
+        usd: United States dollar
+        uyu: Uruguayan peso
+        uzs: Uzbekistani som
+        vef: Venezuelan bolívar
+        vnd: Vietnamese dong
+        vuv: Vanuatu vatu
+        wst: Samoan tālā
+        xaf: Central African CFA franc
+        xcd: East Caribbean dollar
+        xof: West African CFA franc
+        xpf: CFP franc
+        yer: Yemeni rial
+        zar: South African rand
+        zmw: Zambian kwacha
+      symbols:
+        aed: '%nد.إ'
+        afn: ؋%n
+        all: Lek%n
+        amd: '%ndram'
+        ang: ƒ%n
+        aoa: Kz%n
+        ars: $%n
+        aud: $%n
+        awg: ƒ%n
+        azn: ман%n
+        bam: KM%n
+        bbd: $%n
+        bdt: ৳%n
+        bgn: лв%n
+        bhd: '%n.د.ب'
+        bif: FBu%n
+        bmd: $%n
+        bnd: $%n
+        bob: $b%n
+        brl: R$%n
+        bsd: $%n
+        btn: Nu.%n
+        bwp: P%n
+        byr: p.%n
+        bzd: BZ$%n
+        cad: $%n
+        cdf: Fr%n
+        chf: CHF%n
+        clf: $%n
+        clp: $%n
+        cny: ¥%n
+        cop: $%n
+        crc: ₡%n
+        cup: ₱%n
+        cve: Esc%n
+        czk: Kč%n
+        djf: Fr%n
+        dkk: '%nkr'
+        dop: RD$%n
+        dzd: دج%n
+        eek: '%nkr'
+        egp: £%n
+        ern: Nfk%n
+        etb: Br%n
+        eur: €%n
+        fjd: $%n
+        fkp: £%n
+        gbp: £%n
+        gel: '%nlari'
+        ggp: £%n
+        ghc: ¢%n
+        ghs: GH₵%n
+        gip: £%n
+        gmd: D%n
+        gnf: Fr%n
+        gtq: Q%n
+        gyd: $%n
+        hkd: $%n
+        hnl: L%n
+        hrk: kn%n
+        htg: G%n
+        huf: '%nFt'
+        idr: Rp%n
+        ils: ₪%n
+        imp: £%n
+        inr: ₹%n
+        iqd: '%nد.ع'
+        irr: ﷼%n
+        isk: '%nkr'
+        jep: £%n
+        jmd: J$%n
+        jod: '%nدينار'
+        jpy: ¥%n
+        kes: Ksh%n
+        kgs: лв%n
+        khr: ៛%n
+        kmf: Fr%n
+        kpw: ₩%n
+        krw: ₩%n
+        kwd: د.ك%n
+        kyd: $%n
+        kzt: лв%n
+        lak: ₭%n
+        lbp: £%n
+        lkr: ₨%n
+        lrd: $%n
+        lsl: M%n
+        ltl: Lt%n
+        lvl: Ls%n
+        lyd: ل.د%n
+        mad: د.م.%n
+        mdl: '%nleu'
+        mga: Ar%n
+        mkd: ден%n
+        mmk: K%n
+        mnt: ₮%n
+        mop: MOP$%n
+        mro: UM%n
+        mur: ₨%n
+        mvr: Rf.%n
+        mwk: MK%n
+        mxn: $%n
+        myr: RM%n
+        mzn: MT%n
+        nad: $%n
+        ngn: ₦%n
+        nio: C$%n
+        nok: '%nkr'
+        npr: ₨%n
+        nzd: $%n
+        omr: ﷼%n
+        pab: B/.%n
+        pen: S/.%n
+        pgk: K%n
+        php: ₱%n
+        pkr: ₨%n
+        pln: '%n zł'
+        pyg: Gs%n
+        qar: ﷼%n
+        ron: lei%n
+        rsd: Дин.%n
+        rub: руб%n
+        rwf: FRw%n
+        sar: ﷼%n
+        sbd: $%n
+        scr: ₨%n
+        sdg: ج.س.‏%n
+        sek: '%nkr'
+        sgd: $%n
+        shp: £%n
+        sll: Le%n
+        sos: S%n
+        srd: $%n
+        std: Db%n
+        svc: $%n
+        syp: £%n
+        szl: E%n
+        thb: ฿%n
+        tjs: '%ncомонӣ'
+        tmt: T%n
+        tnd: د.ت%n
+        top: $%n
+        trl: ₤%n
+        try: ₤%n
+        ttd: TT$%n
+        tvd: $%n
+        twd: NT$%n
+        tzs: TSh%n
+        uah: ₴%n
+        ugx: USh%n
+        usd: $%n
+        uyu: $U%n
+        uzs: лв%n
+        vef: Bs%n
+        vnd: ₫%n
+        vuv: VT%n
+        wst: WS$%n
+        xaf: FCFA%n
+        xcd: $%n
+        xof: CFA%n
+        xpf: F%n
+        yer: ﷼%n
+        zar: R%n
+        zmw: ZK%n
+        zwd: Z$%n
+    defaultPageTitle: Pick Stocks Easily
+    empty: Empty
+    languages:
+      de: Deutsch
+      de-DE: Deutsch
+      en: English
+      en-US: English
+      es: Español
+      es-ES: Español
+      fr: Français
+      fr-FR: Français
+      it: Italiano
+      it-IT: Italiano
+      ja: 日本語
+      ja-JP: 日本語
+      pt: Portuguese
+      pt-PT: Portuguese
+      zh-CN: 中文
+    loading: Loading...
+    login: Login
+    pages:
+      privacy_policy: Privacy Policy
+      tos: Terms of Service
+    regions:
+      amer: Americas
+      apac: Asia Pacific
+      emea: Europe, Middle-East & Africa
+    register: Sign Up Free
+    social:
+      email: Email to a friend
+    time:
+      dateFormat: '%m/%d/%y'
+      daysOfWeek:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+      periods:
+        day: '%n Day'
+        days: '%n Days'
+        month: '%n Month'
+        months: '%n Months'
+        week: '%n Week'
+        weeks: '%n Weeks'
+        year: '%n Year'
+        years: '%n Years'
+      shortDateFormat: '%m/%d'
+      shortDaysOfWeek:
+      - Sun
+      - Mon
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+      - Sat
+    tooltips:
+      watch:
+        unwatch: Remove from your Watchlist
+        watch: Add to your Watchlist
+      widget:
+        alerts: Stock Alerts
+        graph: Price Chart
+        info: Key Metrics
+        missing: Instrument is not on Stockflare
+        social: Share
+        trade: Buy or Sell %n
+        unavailable: Can only trade US Stocks
+    unwatch: Unwatch
+    wallStreetRecommendations:
+      emptyCategory: You have no stocks in this category.
+      missing: N/A
+      price: Price
+      recommendation: Recommendation
+      target: Target
+      titles:
+        buy: Buy
+        hold: Hold
+        sell: Sell
+        strong_buy: Strong Buy
+        strong_sell: Strong Sell
+        unknown: N/A
+    watch: Watch
+  delete:
+    copy:
+      deleted: Your account has been successfully deleted, and all information permanently removed from our system. This action cannot be undone.
+      deleting: Your account is now being deleted.
+      error: An error was encountered whilst attempting to delete your account. Please contact support@stockflare.com
+    titles:
+      deleted: Account Deleted
+      deleting: Deleting Account...
+      error: An error has occurred
+  disclaimers:
+    main:
+      fifth: Stockflare's 5 star metrics, are a way to compare the quality of any group of stocks. They look at the profitability, dividends, growth, valuation, and "Wall Street" opinion on any stock. We stress, these are a quality metric and research tool. They are in not an explicit or implicit recommendation.
+      first: Stockflare is operated by %_blank(Stockflare Limited){http://bitly.com/StockflareCH}, a company based in the United Kingdom. Stockflare is primarily an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors.
+      fourth: We present the "Wall Street" consensus forecasts and recommendations on our website. This includes reference to “Buy”, “Sell”, “Hold”, & “Price Targets” for stocks. Stockflare does not endorse these forecasts. Sadly, there is no data on the future. The views of Wall Street are subjective, not objective. i.e. They get it wrong, regularly.
+      second: Investment advice is a regulated service. Our whole-owned subsidiary in the United States, %_blank(Stockflare USA, Inc.){http://bitly.com/StockflareSECdoc} is an SEC registered investment advisor. Please see the %_blank(client brochure){http://bitly.com/SECbrochure} should you wish to receive advice from Stockflare USA, Inc.
+      third: End-of-day pricing data, fundamentals and estimates are provided by Thomson Reuters. Delayed pricing data for BATS, AMEX, NYSE, and NASDAQ are provided by Barchart and is at least 10 minutes delayed, for more information visit %_blank(their website){http://bitly.com/BarchartNotes}. Integration for US brokerage firms is powered by %_blank(Trading Ticket Inc.){http://bitly.com/TradeITterms}
+    metrics: The 5 key metrics cover profitability, dividends, growth, valuation, and sentiment. They are not a recommendation but a way to compare the quality of stocks and highlight key risks.
+    title: Time for the legals!
+    wallStreet: This table presents the upside to the "Wall Street" consensus price target and the consensus recommendation for the stocks in your Watchlist. There is no data on the future. Therefore this consensus is subjective analysis, not objective. Stockflare doesn't endorse the views of "Wall Street". We present this data, so our users can see what the sentiment of the experts is towards any stock.
+    worth: This table combines the long-term earnings forecast from the "Wall Street" consensus, the forecast dividend yield and a reversion-to-mean of the forecast PE ratio. Therefore the projected gain figure is based on the subjective analysis of the professionals, and is not objective. Stockflare doesn't endorse the views of "Wall Street". We present this data, so our users can see what the sentiment of the experts is towards a stock. There is no data on the future. If the experts' forecasts are wrong, the actual gain will be materially different to the figures presented here.
+  errors:
+    api_error: Shucks, there was an error contacting our servers.
+    not_found: Woops, this page does not exist.
+    stock_not_tradeable: Sorry, this stock cannot be traded at the moment.
+  explore:
+    all: All Stocks
+    biLine: Need a little inspiration?
+    categories:
+      big-and-cheap:
+        description: There are lots of big companies with great brands that investors are choosing to ignore. Maybe they'll come back in favor, some day?
+        disclaimer: The stocks in "Big and Cheap" are generated using a filter of every stock in the United States with a market value over $50 billion and is cheaper than its competitors using a price-to-earnings ratio.
+        filters:
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
+        name: Big & Cheap
+      boring-businesses:
+        description: Who says you have to invest in the next hot stock! Imagine talking to your friends about paint, plastics, batteries and ball bearings, sewage or sanitary product. There are testing companies, veterinary businesses and funeral homes. Take a look!
+        disclaimer: 'The stocks in "Boring Businesses" are generated using a filter of every stock in the United States with a market value over $1 billion and has passed at least 1 key metric test (e.g. profitable, dividends, high growth, etc). We then look at the stocks that match this filter and are also in any of the following sectors: paint, plastics, batteries, ball bearings, sewage, sanitary product, testing companies, veterinary businesses and funeral homes.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
+        name: Boring Businesses
+      cash-heavy:
+        description: There are a few companies out there who've no debt and are busy paying out all the cashflow they generate to their shareholder. Are they both cash heavy and cash cows?
+        disclaimer: The stocks in "Cash Heavy" are generated using a filter of every stock in the United States with a market value over $500 million that has a net cash position on its balance sheet and pays a significant dividend (i.e. yielding more than 4%).
+        filters:
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
+        name: Cash Heavy
+      coffee-cake:
+        description: Invest in some of life's little pleasures, without the guilt trip if you overdose on the sugar.
+        disclaimer: 'The stocks in "Coffee & Cake" are generated using a filter of every stock in the world with a market value over $500 million and has passed at least 2 key metric tests (e.g. profitable, pays dividends, etc). We then look at the stocks that match this filter and are also in any of the following sectors: cafes, coffee & sugarcane farming, cookie manufacturers, sweeteners & confectionary.'
+        filters:
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
+        name: Coffee & Cake
+      gem-stones:
+        description: Are diamonds an investor's best friend? Diamonds, gemstones, pearl divers. All are options to dazzle the investor.
+        disclaimer: 'The stocks in "Gem Stones" are generated using a filter of every stock in the world with a market value over $100 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: diamond mining, semi-precious stones, pearls.'
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
+        name: Gem Stones
+      going-nuclear:
+        description: Nuclear energy is hardly, clean, but when it comes to the post-oil world, its there with renewable energy, fighting to power our planet.
+        disclaimer: 'The stocks in "Going Nuclear" are generated using a filter of every stock in the world with a market value over $100 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: uranium, nuclear components & construction, nuclear utilities.'
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
+        name: Going Nuclear
+      hated-by-wall-street:
+        description: If you are one of those cynics that distrust Wall Street and the herd-mentality, what could be better than investing in what Wall Street hates!
+        disclaimer: The stocks in "Hated by Wall Street" are generated using a filter of every stock in the United States with a market value over $500 million that the consensus stockbroker recommendation is either a Sell or a Strong Sell.
+        filters:
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
+        name: Hated By Wall Street
+      healthy-tech:
+        description: Biotech companies are making wonderful advances every day. Why not back the scientists who are solving the toughest issues in Healthcare?
+        disclaimer: 'The stocks in "Healthy Tech" are generated using a filter of every stock in the United States with a market value over $1 billion that is in the following sectors: biopharmaceuticals, biotechnology and medical research.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
+        name: Healthy Tech
+      land-and-sea:
+        description: We've all got to eat, eh? There are lots of companies that work in Agriculture, from the farmers, to the folks that make the machinery and the pesticides. Here's are the biggest player in the US.
+        disclaimer: 'The stocks in "Land & Sea" are generated using a filter of every stock in the United States & Canada with a market value over $1 billion that is in the following sectors: agricultural chemicals, cotton farming, fishing & farming, tobacco farming.'
+        filters:
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
+        name: Land & Sea
+      legal-eagles:
+        description: Lawyers and accountants are just a cost, you can invest in them too!
+        disclaimer: 'The stocks in "Legal Eagles" are generated using a filter of every stock in the Americas region with a market value over $50 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: accounting & legal services, legal & tax information providers.'
+        filters:
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
+        name: Legal Eagles
+      renewables:
+        description: If you want to invest in the post-oil world, there are many companies that work in the renewable energy market. Their technology and products range from Wind and Solar to Wave and Hydrogen. Here's a list of the leading player in the Americas.
+        disclaimer: 'The stocks in "Renewables" are generated using a filter of every stock in the Americas region that has passed at least 3 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: renewable energy, renewable utilities.'
+        filters:
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
+        name: Renewables
+      ship-it:
+        description: If you want to ship things in bulk, sea's the only way. Though you can invest in leisure boats as easily as super tankers.
+        disclaimer: 'The stocks in "Ship It" are generated using a filter of every stock in the world with a market value over $500 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: sea-borne tankers, shipbuilding, marine freight & logistics, yachts & motorboats, marine port services.'
+        filters:
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
+        name: Ship It
+      space-race:
+        description: Looking to the final frontier, there are rockets, satellite manufacturers & businesses that rely on satellites for their business to function.
+        disclaimer: 'The stocks in "Space Race" are generated using a filter of every stock in the world with a market value over $100 million that is in the following sectors: satellite & spacecraft manufacturing, satellite networks & navigation, satellite operators.'
+        filters:
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
+        name: Space Race
+      sporting-outdoors:
+        description: You can back a sports team on the stock market too. Or just wear their stripes or own the venue.
+        disclaimer: 'The stocks in "Sporting Outdoors" are generated using a filter of every stock in the world that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: outdoor clothing & footwear, outdoor goods, gyms, ski resorts, sports venues, golf courses, sporting goods stores, outdoor retailers.'
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
+        name: Sporting Outdoors
+      taking-it-easy:
+        description: Who says you have to pick stocks be be good at investing! You could always just choose an ETF, an exchange traded fund. Most track a famous index. So you'll do as well as the market, even if you don't beat it!
+        disclaimer: 'The stocks in "Taking It Easy" are all ETFs (exchange traded funds), generated using a filter of every stock in the world with a market value over $10 billion that is in the following sector: Exchange Traded Funds.'
+        filters:
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
+        name: Taking It Easy
+      tech-titans:
+        description: If "technology is eating the world", there are a select few companies enjoying their meal.
+        disclaimer: 'The stocks in "Tech Titans" are generated using a filter of every stock in the world with a market value over $10 billion that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sector: Technology.'
+        filters:
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
+        name: Tech Titans
+      thirsty:
+        description: Few things are as essential as clean water. As the population grows, so too should the demand.
+        disclaimer: 'The stocks in "Thirsty" are generated using a filter of every stock in the United States that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: water & sewage construction, bottled water & ice, water utilities.'
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
+        name: Thirsty?
+      timber:
+        description: Want to buy into forests, sawmills or the timber business? Here are the best players in the US and Canada
+        disclaimer: 'The stocks in "Timber!" are generated using a filter of every stock in the United States & Canada with a market value over $100 million and has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: paper & forest products, wood containers & packaging, paper packaging, timber REITs.'
+        filters:
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
+        name: Timber!
+      time-online:
+        description: With the internet capturing more and more time from TV, the leaders are already clear. Do you want to invest in the companies you use?
+        disclaimer: 'The stocks in "Time Online" are generated using a filter of every stock in the United States with a market value over $10 billion that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sector: Internet Services.'
+        filters:
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
+        name: Time Online
+      vice-not-nice:
+        description: Forget your morals? Want to invest in drugs, alcohol, gambling, guns and other purveyors of vice?
+        disclaimer: 'The stocks in "Vice, Not Nice" are generated using a filter of every stock in the United States with a market value over $500 million that has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: arms manufacturing, pubs & nightclubs, casinos & gaming, adult entertainment and retailers, brewers & distilleries, beer & tobacco stores.'
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
+        name: Vice, Not Nice
+      young-and-old:
+        description: From clothes to toys, regardless of age. There is an investment option for everyone.
+        disclaimer: 'The stocks in "Young & Old" are generated using a filter of every stock in the United States with a market value over $1 billion that has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: children''s clothing & footware, retirement homes, toys, cruise lines, children & teens retailers, baby food, birth control products, child care, funeral services, glasses & contact lenses, long-term care.'
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
+        name: Young & Old
+    filters: The filters behind %n
+    pageDescription: Need a little inspiration? Stockflare has created some great categories to help you get started.
+    pageTitle: Explore Stockflare
+    popular: Largest stocks in %n
+  filterBar:
+    company_tags:
+      descriptions:
+        growing: Sales & Earnings-per-Share forecast to increase this year, versus last year.
+        has_cash: Companies with more cash & investments than debts.
+        high_growth: Forecast to grow earnings faster than 16%, long term
+        large: Companies valued at more than $10 billion US Dollars.
+        pays_dividends: Companies that pay dividends to shareholders.
+        profitable: Profitable, last year & forecast this year.
+        small: Companies valued at less than $1 Billion US Dollars.
+        turning_profitable: Forecast to be profitable this year, after a loss last year.
+      titles:
+        default: Business Metrics
+        filters:
+          growing: Growing
+          has_cash: Has Cash & Investments
+          high_growth: High Growth Only
+          large: Large Companies Only
+          pays_dividends: Pays Dividends Only
+          profitable: Profitable Today
+          small: Small Companies Only
+          turning_profitable: Turning Profitable
+    country:
+      search: Search by Country name
+      titles:
+        default: Country
+    country_currency:
+      categories:
+        country: Countries
+        currency: Major Currencies
+        regions: Regions
+      titles:
+        default: Country & Currency
+    direction:
+      descriptions:
+        near_high: Stocks that are within 5% of their fifty two week price high
+        near_low: Stocks that are within 5% of their lowest price in fifty two weeks
+        negative: Stocks with prices less than their ten day average
+        positive: Stocks with prices greater than their ten day average
+      titles:
+        default: Price Direction
+        filters:
+          near_high: Near 52 Week High
+          near_low: Near 52 Week Low
+          negative: Negative Momentum
+          positive: Positive Momentum
+    metrics:
+      cheaper:
+        description: Is the stock cheaper than its competitors?
+        title: Cheap
+      dividends:
+        description: Does the company pay dividends?
+        title: Pays Dividends
+      high_growth:
+        description: Is the company forecast to grow faster than its competitors
+        title: High Growth
+      profitable:
+        description: Is the company profitable?
+        title: Profitable
+      title: Key Metrics
+      upside:
+        description: Does Wall Street think the stock is worth more than the current price
+        title: Has Upside
+    opinion:
+      titles:
+        default: Investing Style
+    order:
+      ascending: Low to High
+      descending: High to Low
+      orders:
+        latest_market_value_usd: Market Value
+        latest_price: Price
+        latest_rating: Key Metrics
+        market_value_usd: Market Value
+        price: Price
+        rating: Key Metrics
+    panel:
+      description: You can apply many filters from the options below to find your perfect stock.
+      title: Apply Filters
+    sector:
+      titles:
+        default: Sector
+    sectors:
+    - code: '50'
+      name: Oil & Gas
+    - code: '51'
+      name: Mining & Materials
+    - code: '52'
+      name: Industrials
+    - code: '54'
+      name: Consumer (Food & Home)
+    - code: '53'
+      name: Consumer (Other)
+    - code: '55'
+      name: Financials
+    - code: '56'
+      name: Healthcare
+    - code: '57'
+      name: Technology
+    - code: '58'
+      name: Telecoms
+    - code: '59'
+      name: Utilities
+    sentiment:
+      descriptions:
+        hated: Stocks where Wall Street’s target price is lower than today’s price.
+        loved: Stocks where Wall Street’s target price is higher than today’s price.
+        unknown: Stocks where Wall Street doesn’t have an opinion on the price.
+      titles:
+        default: Sentiment
+        filters:
+          hated: Hated by Wall Street
+          loved: Loved by Wall Street
+          unknown: Unknown on Wall Street
+    style:
+      descriptions:
+        growth: Companies that grow faster than the competitors, long-term.
+        quality: Companies that are cheap & forecast to grow strongly.
+        value: Companies that are cheaper than their competitors.
+      titles:
+        default: Investment Style
+        filters:
+          growth: High Growth
+          quality: High Quality
+          value: Good Value
+    valuation:
+      descriptions:
+        high_dividend: Cheap stocks based on their dividend payments
+        low_book_value: Cheap stocks based on their net asset value
+        low_operating_profit: Stocks based on their operating profits
+        low_pe: Cheap stocks based on their profits
+        low_sales: Stocks based on their price to sales
+      titles:
+        default: Valuation
+        filters:
+          high_dividend: Dividend yield over 4%
+          low_book_value: Trading below Book Value
+          low_operating_profit: Less than 7x Operating Profit
+          low_pe: PE Ratio under 10x
+          low_sales: Less than 1x Sales
+  forgot:
+    buttons:
+      forgot: Recover my password
+    copy:
+      explanation: An email has been sent to the email address you submitted, containing a link to safely reset your password.
+    errors:
+      '404': Email Address not found
+      '500': Sorry, there was a server error
+    og:
+      description: Forgot your password? Recover it here.
+      title: Recover your Stockflare Password
+    pageTitle: Forgot Password
+    prompt:
+      question: Remember your password?
+      register: Login here
+    titles:
+      forgot: Forgot Password
+      sent: Password Reset Sent
+  header:
+    buttons:
+      about: About Stockflare
+      alerts: My Alerts
+      explore: Explore
+      filters: Filters
+      guestWatched: Save your Watchlist
+      ideas: Pick Stocks
+      search: Search
+      watchlist: My Watchlist
+  home:
+    explore:
+      link: Click here to explore all themes
+      title: Explore by Theme
+    pageDescription: Search for any stock in the world
+    pageTitle: Home
+    sector:
+      link: Click here to see all stocks in %n
+      title: Explore the Largest Stocks in %n
+  landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / month
+          price_two: ¥ 30 per month
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
+    explore:
+      content:
+        copy: Everyone loves to explore new ideas.
+        line: Our Explore section filters the universe of stocks in fascinating way.
+        point: Do the research and improve how you invest.
+        title: A new way to "Explore" stocks
+    feed:
+      content:
+        copy: Using our filters, screen thousands of stocks quickly.
+        point: Stockflare helps you do your research rapidly.
+        title: Cut out the noise
+    introduction:
+      content:
+        copy: Pick great stocks for your portfolio.
+        cta: 100% Free
+        point: Improve how you invest.
+        title: Pick Stocks Easily
+      menu:
+        search: Search for Stocks
+        skip: Skip
+      stats:
+        analyzed: Total Stocks
+        countries: Countries
+        stocks: All 5 Key Metrics
+      tease: What is Stockflare?
+    mobile:
+      content:
+        copy: No matter where you are or what stock you want to check, Stockflare has a mobile and tablet version for you.
+        title: Stocks on the go!
+    opinion:
+      bubbles:
+        buy: Buy
+        hold: Hold
+        sell: Sell
+      content:
+        copy: Get the professional recommendations. Are they Buyers or Sellers? Price targets for every stock.
+        point: Professional recommendations. Free forever.
+        title: What are the Experts Buying?
+    pageTitle: Pick Stocks Easily
+    question:
+      content:
+        copy: 'Doing research on stocks doesn''t have to be complicated. Stockflare gets you to the key metrics on any stock in the world rapidly. '
+        title: What is Stockflare?
+    rating:
+      content:
+        copy: Are you overwhelmed by all the terms financial professionals throw at you? Get to the key metrics on any stock. Cut through the noise, get to the facts.
+        point: Research stocks with ease. Improve how you invest.
+        reveal:
+          notRevealing: Check out %n
+          revealing: '%n passes %n of the key metric tests'
+        title: Get to the key information, rapidly.
+      ratings:
+        cheaper: Is it Cheap or Expensive?
+        dividends: Does it pay dividends?
+        growth: Does it have high growth?
+        profitable: Is it profitable?
+        upside: What is Wall Street's opinion?
+    register:
+      content:
+        copy: Register now to keep track of your favorite stocks.
+        skip: Skip to Stocks
+        title: Join us for free
+  login:
+    buttons:
+      forgot: I've forgotten my password
+      loading: Logging In
+      login: Login
+      resetOtp: I've lost my MFA Device
+      social_login: Login with
+    descriptions:
+      mfa: This account has been secured with an MFA device. Enter the code from the device to complete login.
+    errors:
+      '401': Invalid Username or Password
+      '500': Sorry, there was a server error
+      error_403: Invalid Username or Password
+      error_500: Sorry, there was a server error
+      mfa:
+        '401': Invalid Authentication Code
+        '500': Sorry, there was a server error
+    flash:
+      success: You are now logged in as %n
+    og:
+      description: Got an Account? Login to Stockflare here.
+      title: Login to Stockflare
+    pageTitle: Login
+    prompt:
+      mfaInfo: More Info
+      question: Not a member?
+      register: Sign up free here
+    titles:
+      expired: Your session has expired
+      login: Login to Stockflare
+      mfa: Secured Account
+      social: Social Login (Coming Soon)
+  onboard:
+    controls:
+      complete: Complete
+      next: Next
+      prev: Previous
+      skip: Skip
+    subtitles:
+      pick: Here are a few major US companies. Why not add a couple to a Watchlist?
+      register: Get access to all our great features
+      watchlist: Watchlists are lists of stocks that you own or track
+    titles:
+      pick: Let's test it out
+      register: Register now for free..
+      watchlist: Watchlists are great and here's why!
+    watchlist:
+      reasons:
+        alerts: Get critical alerts on your stocks
+        analysis: Get to the key data rapidly
+        multiples: Easily set up multiple Watchlists
+        unlimited: Track an unlimited amount of stocks
+  portfolios:
+    connected-brokerages: Connected Brokerages
+    create:
+      button: New Brokerage
+    watchlists: Watchlists
+  recover:
+    buttons:
+      recover: Reset my password
+    copy:
+      explanation: Your password has now been reset.
+      link: Click here to login
+    errors:
+      '400': Failed to reset password
+      '403': Password reset token has expired
+    og:
+      description: Recover your password here.
+      title: Reset your Stockflare Password
+    pageTitle: Reset Password
+    prompt:
+      question: Remember your password?
+      register: Login here
+    titles:
+      recover: Reset your Password
+      sent: Password Reset
+  recoverMfa:
+    buttons:
+      recover: Reset MFA
+    copy:
+      explanation: Multi-Factor authentication has now been reset, and disabled for this account.
+      link: Click here to login
+    errors:
+      '400': Failed to reset MFA
+      '403': MFA reset token has expired. Please request another.
+    og:
+      description: Reset your Multi-Factor Authentication here.
+      title: Reset MFA for your Stockflare Account
+    pageTitle: Reset MFA
+    prompt:
+      login: Login here
+      question: Found your MFA device?
+    titles:
+      recover: Reset Multi-Factor Authentication
+      recovered: MFA Successfully Reset
+  register:
+    buttons:
+      loading: Creating Account
+      register: Register for Stockflare
+    disclaimer: By using our website or clicking '%n' you agree to our
+    errors:
+      error: 'Sorry, there was a problem with your registration:'
+      error_400: A valid email and password of at least 6 characters is required.
+      error_409: Email address already registered.
+      error_500: A server error occurred. Please try again later.
+    flash:
+      success: You have successfully registered as %n
+    og:
+      description: Not got an Account yet? Register for Stockflare here.
+      title: Register a new account at Stockflare
+    pageTitle: Register
+    prompt:
+      login: Login here
+      question: Already a member?
+    success:
+      cta: Go to Stocks
+      loopback: Loading...
+      title: Completed Registration
+    titles:
+      join: Join Stockflare
+  resetMfa:
+    buttons:
+      reset: Reset MFA
+    copy:
+      explanation: An email has been sent to the address you submitted, containing a link to safely reset MFA for this account. You will also need to provide the recovery codes that were sent to you when MFA was first activated.
+    errors:
+      '404': Email Address not found
+      '500': Sorry, there was a server error
+    og:
+      description: Lost your virtual MFA device? Reset it here.
+      title: Reset MFA for your Stockflare Account
+    pageTitle: Reset Multi-Factor Authentication
+    prompt:
+      login: Login here
+      question: Found your virtual MFA device?
+    titles:
+      reset: Reset Multi-Factor Authentication
+      sent: MFA Reset Request Sent
+  search:
+    none:
+      link: Try %n instead?
+      title: Unable to find stocks matching '%n'
+    pageTitle: Search
+    placeholder: Search by Company Name or Ticker...
+    searching:
+      description: Going on a round the world trip!
+      title: Searching through over 45,000 Stocks
+    searchingTitle: Searching for %n
+    title: Searching for %n
+  settings:
+    buttons:
+      apply: Apply Changes
+      delete: Close Account
+      disableMfa: Disable MFA
+      enableMfa: Enable MFA
+      loading: Updating Settings
+    descriptions:
+      currency: Watchlist projections and totals will be displayed in your preferred currency, using the most recent exchange rate.
+      current: Please enter your current password to make this change
+      delete: Closing your account will permanently delete all of your personal data from our systems. This action cannot be undone.
+      cannot_delete: You cannot close your account until you have cancelled your subscription to Stockflare Plus.
+      error: 'Sorry, there was a problem updating your settings:'
+      language: Set your preferred language to view Stockflare in.
+      location: Your location is used to filter stocks when you do not have a Country filter applied.
+      mfaDisable: Disable MFA for your account by entering two valid codes below.
+      mfaDisabled: MFA provides an additional layer of security for your account.
+      mfaEnable: Enable MFA for your account by scanning the QR Code below, then entering two valid codes.
+      mfaEnabled: MFA is currently enabled for this account.
+      password: Leave blank if you do not wish to change your password
+      alerts_email: Do you want to receive emails of your stock alerts
+    subscription:
+      silver:
+        title: You are subscribed to Stockflare Plus.
+        trialing: Your trial ends in %n days.
+        active: Your subscription is active and will be billed in %n days.
+        past_due: Your last payment failed, please update your payment details.
+        cancelled: Your subscription has been cancelled and will end in %n days.
+      free:
+        title: You are using our Free Service.
+        offer_trial: Why not check out our free 14 day trial.
+        active: You can upgrade to Stockflare Plus any time.
+      buttons:
+        add: Add Payment Details
+        update: Update Payment Details
+        cancel: Cancel Subscription
+        trial: Try Plus for free
+    flash:
+      delete: Are you sure you wish to close your Stockflare account?
+      deleteError: Sorry, there was an error closing your account, please contact info@stockflare.com
+      deleteInitiated: Account closure request received. Please check your email inbox for further instructions.
+      updated: Your settings have been updated
+      cancel_subscription: Are you sure you want to cancel your Stockflare Plus subscription?
+    groups:
+      password: Change Password
+    pageTitle: Settings
+    titles:
+      danger: Danger Zone
+      header: User Settings
+      mfa: Multi-Factor Authentication
+      properties: My Details
+      protected: Protected Details
+      subscription: Subscription Details
+  stock:
+    buttons:
+      fiveYears: 5 Years
+      oneMonth: 1 Month
+      oneWeek: 1 Week
+      oneYear: 1 Year
+      sixMonths: 6 Months
+      threeMonths: 3 Months
+    cheaper:
+      cheaper:
+        explanation: '%t(pe){PE Ratio} is lower than its competitors.'
+        title: Cheaper
+      expensive:
+        explanation: '%t(pe){PE Ratio} is higher than its competitors.'
+        title: Expensive
+    dividends:
+      forecastedDescription: Forecast %t(dps){Dividends-per-Share}.
+      latestDescription: Latest %t(dps){Dividends-per-Share}.
+      title: Pays Dividends?
+      yield: Yield of %n%
+    errors:
+      generic: An error occurred
+      loadError: Error loading stock
+    graph:
+      average: Average
+      empty: No data for this graph yet
+      price: Price
+      volume: Price & Volume
+    growth:
+      strong:
+        explanation: Long-term Growth is forecasted to be higher than its competitors.
+        title: Strong Growth
+      weak:
+        explanation: Long-term Growth is forecasted to be lower than its competitors.
+        title: Weak Growth
+    header:
+      actualChange: Actual Change
+      last_updated: Last Updated %n
+      percentChange: Percentage Change
+      price: Stock Price
+    information:
+      breakdown: Key Metrics
+      competitors: Competitors
+      description: Company Description
+      results: Latest Results
+      statistics: Key Statistics
+      view_all_competitors: View All
+    inner:
+      description:
+        table:
+          name: Name
+          sector: Sector
+          size: Size
+        titles:
+          competitors: Who are the Competitors?
+          main: Company Description
+      dividends:
+        titles:
+          competitors: Competitors Paying Dividends
+          forecast: Short Term Dividend Forecast
+          main: Dividends
+      growth:
+        titles:
+          comparison: Comparing the Long Term forecasts to the Short Term forecasts
+          growth: Long Term Growth Forecast
+          main: Growth Rate Vs. 5 Fastest Growing Competitors
+          profit: Short Term Profit Forecast
+          sales: Short Term Sales Forecast
+      labels:
+        forecasted: Forecast
+        historic: Last 12 Months
+      latest:
+        forecasted:
+          dividend: Dividend Forecast
+          eps: EPS Forecast
+          profit: Net Profit Forecast
+          sales: Sales Forecast
+        titles:
+          epsForecast: Forecasted EPS and Dividend Yield
+          gross: Gross Margin (%) Vs. 5 Largest Competitors
+          main: Latest Results
+          operating: Operating Margin (%) Vs. 5 Largest Competitors
+          roe: Return on Equity (%) Vs. 5 Largest Competitors
+          salesForecast: Forecasted Sales and Net Profit
+      panel:
+        description: Here you can find detailed information about %n, including peer comparisons on key metrics.
+        title: Breakdown
+      peers:
+        table:
+          dps: DPS
+          eps: EPS
+          growth: Growth
+          name: Company Name
+          pe: PE Ratio
+          rating: Key Metrics
+          ric: RIC
+          upside: Upside
+        titles:
+          main: Company Competitors
+      profitable:
+        titles:
+          epsForecast: Short Term EPS Forecast
+          main: Profitable
+          profitForecast: Short Term Profit Forecast
+      stats:
+        data:
+          table:
+            cheaperOn: Cheaper than peers on %n of 10 measures
+            headers:
+              cheaper: Cheaper?
+              competitors: Competitors
+              stock: Latest
+            labels:
+              forecastedDividends: Dividend Yield (Forecast)
+              forecastedFcfYield: Free Cash Flow Yield (Historic)
+              forecastedPe: PE Ratio (Forecast)
+              forecastedSales: Price to Sales (Forecast)
+              historicBookValue: Price to Book Value (Historic)
+              historicDividends: Dividend Yield (Historic)
+              historicEquity: Return on Equity (Historic)
+              historicPe: PE Ratio (Historic)
+              historicProfit: Price to Operating Profit (Historic)
+              historicSales: Price to Sales (Historic)
+        market:
+          cash: Net Cash
+          debt: Net Debt
+          enterprise: Enterprise Value
+          market: Market Value
+          price: Share Price
+          profit: Operating Profit
+          shares: Common Shares
+          value: Market Value
+        titles:
+          debt: What is the Cash/Debt level?
+          key: Key Stats
+          percent: Net Cash is equivalent to %n of the Market Value
+          ratio: Net Debt levels are %n Operating Profit
+          unavailable: Cash / Debt Analysis unavailable
+          upside: Upside / Downside to 52 Week High / Low
+          valuations: Valuation Multiples
+          warning: 'Warning:'
+        volumes:
+          daily: Daily Trade Volume
+          today: Today's Volume Is
+      upside:
+        title: PE Ratio Vs. 5 Cheapest Competitors
+      wallStreet:
+        titles:
+          competitors: Competitors' Recommendations
+          main: Upside Vs. 5 Competitors with Highest Upside
+          oneMonth: One Month Ago
+          oneWeek: One Week Ago
+          recommendation: Change in Wall Street's Recommendation
+          threeMonth: Three Months Ago
+          today: Today
+      worth:
+        title: What it's Worth
+    innerTypes:
+      description:
+        description: Read this stock's company description and key data on Stockflare.
+        title: Company Description
+      dividends:
+        description:
+          fallback: Wall Street isn't forecasting any dividends per share for this stock. Find out why on Stockflare.
+          valid: Wall Street is forecasting %n dividend per share for this stock. Find out more on Stockflare.
+        title: Dividends
+      growth:
+        description:
+          fallback: This stock has weaker growth than its competitors. Find out why on Stockflare.
+          terms:
+            high: stronger
+            low: weaker
+          valid: This stock's earnings are forecast to grow %n% per annum long-term. Which is %n than its competitors. Find out more on Stockflare.
+        title: Growth
+      latest:
+        description: Read this stock's latest results and get the financial data on Stockflare.
+        title: Latest Results
+      peers:
+        description:
+          valid: This stock has %n competitors. Compare the key metrics at Stockflare.
+        title: Peers List
+      profitable:
+        description:
+          fallback: Wall Street isn't forecasting any earnings per share for this stock. Find out why on Stockflare.
+          valid: Wall Street is forecasting %n earnings per share for this stock. Find out more on Stockflare.
+        title: Profit / Loss
+      stats:
+        description:
+          terms:
+            cheaper: cheaper
+            expensive: expensive
+          valid: This stock has a market value of %n and its valuation is %n based on %n our of 9 metrics. Find out more on Stockflare.
+        title: Key Stats
+      upside:
+        description:
+          fallback: This stock is expensive versus its competitors. Find out more on Stockflare.
+          terms:
+            cheap: cheap
+            expensive: expensive
+          valid: This stock is trading at %nx times earnings and is %n versus its competitors. Find out more on Stockflare.
+        title: Cheap or Expensive
+      wallStreet:
+        description:
+          fallback: Wall Street doesn't have an opinion on this stock. Find out why on Stockflare.
+          terms:
+            downside: downside
+            upside: upside
+          valid: Wall Street has a %n recommendation for this stock with a price target of %n. That implies a %n% %n. Find out more on Stockflare.
+        title: Wall Street's Opinion
+      worth:
+        description:
+          fallback: Find out what this stock is forecasted to gain or lose over the next 7 years on Stockflare.
+          terms:
+            gain: gain
+            lose: lose
+          valid: This stock is forecast to %n %n% per annum over the next 7 years.
+        title: What it's Worth
+    notification:
+      insufficientData: We do not have enough data to perform this calculation
+      stale: The data for this stock has not been updated for at least 10 days and may now be stale.
+      updating: We are currently updating the information on this stock. Please check back in 15 minutes.
+      widgetUpdating: Calculations updating.
+    og:
+      description: This stock currently passes %n of the key metric tests. Find more information on Stockflare.
+      title: Information about %n on Stockflare
+    priceChange:
+      down: Down
+      price:
+        title: Price Change
+      profitability:
+        epsToday: Today it is %n
+        epsWas: '%t(eps){EPS} was %n.'
+        forecastEpsWas: Forecast %t(eps){EPS} was %n.
+        title: Change in Profitability?
+      sentiment:
+        forecastPeWas: Forecast %t(pe){PE Ratio} was %nx.
+        peToday: Today it is %nx
+        peWas: '%t(pe){PE} was %n.'
+        title: Change in Investor Sentiment?
+      title: What is driving the Price Change?
+      up: Up
+    profitable:
+      forecastedDescription: Forecast %t(eps){Earnings-per-Share}.
+      latestDescription: Latest %t(eps){Earnings-per-Share}.
+      title: Profitable?
+    ratings:
+      cheaper:
+        negative: Expensive versus the competitors
+        positive: Cheaper than the competitors
+      dividends:
+        negative: Not paying dividends
+        positive: Paying dividends
+      high_growth:
+        negative: Weaker growth than the competitors
+        positive: Stronger growth than the competitors
+      profitable:
+        negative: Not profitable
+        positive: Profitable company
+      upside:
+        negative: '%n downside to price target'
+        neutral: No difference to price target
+        positive: +%n upside to price target
+        unknown: Unknown price target
+    social:
+      email: Email to a friend
+    stats:
+      fifty_two_week: 52 Week High/Low
+      industry: Industry
+      value: Market Value
+      website: Company Website
+    targetPrice:
+      decrease: '%t(downside){downside}.'
+      description: A %n on today's price.
+      equal: No difference
+      increase: '%t(upside){upside}.'
+      recommendations:
+        buy: Wall Street's %t(recommendation){recommendation} is Buy.
+        hold: Wall Street's %t(recommendation){recommendation} is Hold.
+        sell: Wall Street's %t(recommendation){recommendation} is Sell.
+        strong_buy: Wall Street's %t(recommendation){recommendation} is Strong Buy.
+        strong_sell: Wall Street's %t(recommendation){recommendation} is Strong Sell.
+      title: Wall Street Target Price
+    worth:
+      annotations:
+        annually: Per Year
+        gain:
+          negative: Loss Over 7 Years
+          positive: Gain Over 7 Years
+        growth: 7 Year Forecast Growth
+        value: Total Value in 7 Years
+      copy:
+        absoluteGain:
+          negative: '%n decreases to %n over 7 years'
+          positive: '%n increases to %n over 7 years'
+        gainPerYear:
+          negative: Loss of %n per year
+          positive: Gain of %n per year
+        relativeGain:
+          negative: Loss of %n over 7 years
+          positive: Gain of %n over 7 years
+        sevenYearGain:
+          negative: Loses %n over 7 years
+          positive: Gains %n over 7 years
+        value:
+          text: Shares valued at %n
+      descriptions:
+        growth:
+          negative: Current value of %n is forecast to decrease by %n over a 7 year period.
+          positive: Current value of %n is forecast to increase by %n over a 7 year period.
+        return: Forecast driven by Wall Street's long-term growth figure, expect dividends and the current valuation.
+      flash:
+        another: Added another %n Shares @ %n for %n
+        first: Added %n Shares @ %n for %n
+      footnote: We are assuming an 8% annual growth rate for the above calculations.
+      forecast:
+        title: is Forecast to
+      inputs:
+        button: Add %n Shares @ %n
+        price: Set Purchase Price
+        shares: Set Share Amount
+        watchlist: Select Watchlist
+      result:
+        title: That Means
+      title: What it's Worth
+      titles:
+        growth: Investment Growth
+        return: 7 Year Forecast Return
+      today:
+        description: Enter share amount below
+        submitNotWatching: Add Position to Watchlist
+        submitWatching: Update Position on Watchlist
+        title: Today I Own
+        unsaved: You have unsaved changes
+  stocks:
+    apply: Apply Filters
+    matches: Stocks Found
+    messages:
+      loadMore: Load More (%n remaining)
+      loading: Loading Stocks
+      noMatches: Sorry, no stocks found matching your filters
+      noMoreMatches: No more stocks available
+    og:
+      description: Stockflare helps you get new ideas. Search for stock ideas and see if your portfolio's any good.
+      title: Pick Stocks Easily
+    reset: Reset Filters
+  tooltip:
+    acronyms:
+      dps: Dividends-per-share
+      eps: Earnings-per-Share
+      growth: Long Term Growth Forecast
+      pe: Price Earnings ratio
+      rating: Key metrics
+      ric: Reuters ticker code
+    explanations:
+      downside: 'Stockbrokers publish what they believe is the fair value of a stock, it''s called their Target Price. Our data vendor calculates the average from these experts. Here we show the percentage decrease to the Wall Street Target Price, from today''s stock price. Beware, it''s a subjective option from these experts, not objective. '
+      dps: A company pays dividends, like a bank pays interest. The Dividend-per-Share is what you get for each share you own.
+      eps: A company’s profit is owned by it’s shareholders. The Earnings-per-Share is what you theoretically earn for each share you have.
+      pe: PE ratio shows the share price versus the earnings-per-share. The higher the number the more expensive the stock.
+      recommendation: Stockbrokers publish a Buy/ Sell/ Hold recommendation for each stock they analyze. Our data vendor Thomson Reuters calculates the average from these experts. This is a good indicator of "Wall Street's" sentiment. But beware, it's a subjective opinion, not objective.
+      upside: 'Stockbrokers publish what they believe is the fair value of a stock, it''s called their Target Price. Our data vendor calculates the average from these experts. Here we show the percentage increase to the Wall Street Target Price, from today''s stock price. Beware, it''s a subjective option from these experts, not objective. '
+  user:
+    fields:
+      confirmPassword: Confirm Password
+      currency: Currency
+      current: Current Password
+      email: Email Address
+      language: Language
+      location: Location
+      mfa: MFA Code
+      name: Full Name
+      otpA: First Code
+      otpB: Second Code
+      otpC: Third Code
+      otpD: Fourth Code
+      otpE: Fifth Code
+      otpF: Sixth Code
+      password: Password
+      alerts_email: Get stock alert emails
+    messages:
+      language: Click here to reload the page with your preferred language settings
+    options:
+      logout: Logout
+      settings: Settings
+    validation:
+      email:
+        required: Email Address is required
+        validity: Email Address is invalid
+      name:
+        validity: Your name is invalid
+      otp:
+        length: Invalid MFA code. Six digits are required
+        required: A valid MFA code is required
+      password:
+        mismatch: Passwords do not match
+        required: Password is required
+        tooLong: Password is too long
+        tooShort: Password is too short
+  watchlist:
+    actualChange: Actual Change (1 Day)
+    balance:
+      balance:
+        over: is over balanced by %n
+        under: is under balanced by %n
+      balanced: Your portfolio is balanced
+      phrase:
+        negative: Unbalanced
+        neutral: Moderately Balanced
+        positive: Balanced
+      title: Concentration by Stocks
+      tooltip: 100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is in a few key stocks.
+    breakdown:
+      columns:
+        actions: Actions
+        gain: 7 Year Forecast
+        name: Name
+        price: Today
+        purchased: Invested At
+        rating: Key Metrics
+        shares: Value & Shares
+      empty: Get started by adding some stocks to your watchlist below
+      rows:
+        gain:
+          gain: '%n pa'
+        purchased:
+          worth:
+            negative: A %n loss
+            positive: A %n gain
+        today:
+          change: '%n today'
+      title: '%n Portfolio Breakdown'
+    create:
+      button: New Watchlist
+      fields:
+        name: Watchlist Name
+      points:
+        infinite:
+          subtitle: There are absolutley no limits on our watchlists. Watch as many stocks as you like.
+          title: Infinite Size
+        monitor:
+          subtitle: Determine your best & worst performing stocks using our data.
+          title: Monitor Performance
+        positions:
+          subtitle: Add stock positions and purchase prices to get a realistic portfolio.
+          title: Add Positions
+      subtitle: Watchlists on Stockflare are so much more than the average portfolio.
+      title: Create a Watchlist
+    danger:
+      button: Delete Watchlist
+      description: Deleting your watchlist will permanently remove all data that has been stored on our servers. This action cannot be undone.
+      title: Danger Zone
+    defaultName: My Watchlist
+    footnote: '* Where we have no data, we use an 8% growth rate.'
+    pageDescription: Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks.
+    pageTitle: My Watchlist
+    percentChange: Percent Change
+    portfolioTable:
+      difference: A gain of %n
+      forecastGrowth: Projected Gain *
+      gain: Annual gain of %n%
+      name: Company Name
+      price: Today
+      projected: In 7 Years %n
+      purchased: Purchased At
+      sevenYears: In 7 Years
+      shares: No. of Shares
+      total: Total %n
+      usValue: Value (USD)
+      value: Value
+    projected: Detailed Portfolio Information
+    sector:
+      missing: 'Missing:'
+      title: Concentration by Sector
+      tooltip: The value of your portfolio split by the 10 key sectors.
+    summary:
+      summaries:
+        gain:
+          notWatchingStocks: Watch some stocks to see the average growth data.
+          projectedGain: an annual gain of %n% from today's %n
+          projectedValue: Portfolio potentially worth %n in 7 years
+        opinion:
+          notWatchingStocks: Watch some stocks to get access to the key metrics.
+          stars: Average of %n key metrics.
+          ws: Wall Street thinks it's a %n.
+      titles:
+        alerts: Most Recent Alerts
+        gain: Seven Year Gain
+        opinion: Watchlist's Key Metrics
+    wallStreet:
+      title: Wall Street's Price Target & Recommendation
+      upside:
+        missing: N/A Upside
+        text: '%n% Upside'
+    warningSubtitle: Don't lose your watchlist. It's only saved temporarily. Register or Login to save it.
+    warningTitle: You've watched stocks, without registering or logging in!
+    watching: Total Watching
+    watchingPhrase: '%n Companies'
+    worth: Total Worth
+  watchlists:
+    connect: New Brokerage
+    delete: Are you sure you want to delete '%n'?
+    pageTitle: My Portfolio
+    subtitles:
+      connected: Connected Brokerages
+      watchlists: Watchlists
+    titles:
+      actual: Actual Change
+      change: Percentage Change
+      count: Watching
+      inactive: '%n Inactive'
+      mover: Biggest Mover
+      rating: Key Metrics Test
+      return: Total Return
+      stocks: '%n Stocks'
+      worth: Total Worth
+  account:
+    pageTitle: "My connected brokerage account"
+    pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
+    power: "Buying Power"
+    danger:
+      title: "Danger Zone"
+      description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
+      button: "Unlink broker"
+    breakdown:
+      title: "Portfolio Breakdown"
+      empty: "No stocks in your account"
+      refresh: "Refresh account positions"
+      columns:
+        name: Name
+        rating: "Star Rating"
+        price: Today
+        purchased: "Purchase Price"
+        shares: "No. Shares"
+        gain: "7 Year Gain"
+        actions: Actions
+      rows:
+        gain:
+          gain: Gain
+    orders:
+      title: "Trades"
+      empty: "No orders in this account"
+      columns:
+        name: Name
+        purchased: "Purchase Price"
+        sell: "Sell Price"
+        shares: "No. Shares"
+        total: "Total"
+    broker:
+      unlink: "Unlink broker %n and delete account information"
+      unlinkError: "Cound not unlink your account"
+  mobile:
+    about:
+      links:
+        contact: Contact us
+        faq: FAQ
+        about: About us
+        data: Our data partners
+        tos: Terms of service
+        privacy: Privacy policy
+    alerts:
+      title: Alerts
+      settings: Alert Settings
+      unlock: Unlock Alerts
+      upgrade: Upgrade
+      unlockAll: Unlock All Alerts
+      slider:
+        title: Supercharge Stockflare
+        btnLabel: Try for Free
+        first:
+          title: Smart Alerts
+          description: You need more than just price alerts. Get alerts on how the underlying business is performing. Best you know if the business is turning sour!
+        second:
+          title: Connected Portfolios
+          description: Connect your brokerage account and we'll provide a regular healthcheck on your investments and signal when you should think about rebalancing.
+        third:
+          title: Notifications
+          description: With our notification service, sleep easy knowing we are watching your investments ready to notify you, if you've a critical decision to make.
+        success:
+          title: Successfully Supercharged!
+          text: "After the free trial, we will get in contact. Then, you will be billed $5 per month until the plan is canceled."
+          btnLabel: View My Alerts
+      trial:
+        extend:
+          extend: Extend your trial to not miss out
+          left: "%n days left of your Stockflare Plus"
+          get: Get Stockflare Plus Alerts
+          text: Only $5 per month, Cancel Anytime
+          upgrade: Upgrade
+      subtitle: "Here are alerts for the stocks you're watching"
+      empty:
+        title: No Alerts Today
+        text: There are no alerts for the stocks you are watching
+      noAlerts:
+        title: "No Alerts!"
+        text: "You aren't watching any stocks yet. Why not set up a Watchlist?"
+    common:
+      delete:
+        confirmation: "Are you sure you want to delete '%n'?"
+      cancel: Cancel
+      confirm: "Yes"
+      ok: "Ok"
+      complete: Complete
+      form:
+        email: Email Address
+        password: Password
+        newPassword: Desired Password
+      search: Search
+    connect:
+      connecting:
+        title: Logging In
+        subtitle: These are your brokerage details so we can fetch your portfolio
+        status: Connecting
+      connected:
+        title: Trading Activiated
+        subtitle: Below you can choose where to go to
+        portfolioLabel: Go to Portfolio
+        homepageLabel: Go to Homepage
+      form:
+        username: "Username / Email"
+        connectBtn: "Login to %n"
+      noAccount: "I don't have a brokerage"
+      info: "By clicking 'login' you agree to our terms of service"
+    explore:
+      title: Explore stocks
+      subtitle: Explore stocks within different / convenient baskets
+    homepage:
+      title: "Pick stocks easily"
+      subtitle: "Pick stocks easily using our unique ratings"
+      createAccount: "Create Free Account"
+      market: "Here's our analysis on the 3 largest stocks in the US"
+      portfolios: Portfolios
+      settings: Settings
+      desktopVersionLabel: Switch to desktop version
+      viewMore:
+        stocks: "View more stocks"
+        themes: "View more themes"
+      logged:
+        title: "Welcome back"
+        subtitle: "Now you can browse alerts and watchlist"
+    forgotPassword:
+      button: Request New Password
+      sent: Password sent
+      confirmation: Please check your registered email address
+      backButton: Back/ Home
+    search:
+      title: "Searching over 50,000 Stocks"
+      subtitle: "We are going on an adventure"
+      noResults: "Sorry we can't find anything"
+      noResultsLink: "Try"
+    stock:
+      latest: Latest results
+      visit: Visit
+      website: Website
+      million: million
+      keyStats:
+        title: Key Stats
+      starRating:
+        title: Star Rating
+        cheap:
+          title:
+            positive: Cheap
+            negative: Expensive
+          na: No PE Ratio
+          text: "%nx PE vs. competitors on %nx"
+        stronger:
+          title:
+            positive: "Stronger"
+            negative: "Weaker"
+          na: "No growth forecasts"
+          text: "%n% growth vs. competitors with %n%"
+        expert:
+          title: "Expert Opinion"
+          na: "No research from experts"
+          noChanges: "No difference to price target"
+          upside: "%n% upside to price target"
+          downside: "%n% downside to price target"
+        profitable:
+          title:
+            positive: "Profitable"
+            negative: "Not Profitable"
+          na: "No earnings forecast available"
+          text: "EPS forecast"
+        dividends:
+          title: "Dividends?"
+          negative:
+            text: "Not paying dividends"
+          positive:
+            dividend: Dividend
+            yieldOf: "Yield of %n%"
+          na: No dividend forecasts available
+    trade:
+      choose: Choose Brokerage
+      brokerage: Brokerage
+      buy: Buy
+      sell: Sell
+      trade: Trade
+      quantity: Quantity
+      advanced: Advanced Settings
+      simple: Simple Setting
+      preview: Preview Order
+      estimatedFees: Estimated Fees
+      estimatedCost: Estimated Cost
+      estimatedReturn: Estimated Proceeds
+      ticker: Ticker
+      placeOrder: Place Order
+      change: Change
+      buyLimit: Limit
+      sellLimit: Limit
+      reuthenticate: Reuthenticate
+      reuthenticateTest: To continue to trade you need to reauthentucate your trading account
+      fractional:
+        sellTitle: You own
+        buyTitle: What $ amount?
+        sellAll: Sell all of it
+        perShareLabel: Switch to per-share buying
+        dolarBased: Switch back to $-based trading
+      warning:
+        quantity: "Quantity can't bet higher than %n"
+      type:
+        label: Order type
+        limit: Limit Order
+        market: Market Order
+      expiration:
+        label: Time
+        gtc: Good until cancel
+        day: Good for Day
+      success:
+        title: Trade Executed
+        subtitle: Below you can choose where to go
+        portfolioBtn: Go to Portfolio
+        stockBtn: "Back to %n"
+    portfolios:
+      title: Portfolios
+      subtitle: Browse your accounts
+      empty:
+        title: No Brokerages Connected
+        text: "You've not connected a brokerage account to Stockflare. Why not give it a go?"
+    portfolio:
+      reConnect:
+        title: Your account needs Reauthenticating
+        text: Your account does this every 30 days for security
+    settings:
+      title: My Settings
+      subtitle: Change your personal setting here for Stockflare
+      alertSettings:
+        heading: Alert Settings
+        subscription: Subscription
+        trial: "Trial (%n days remaining)"
+        offNoticiations: Pause Email Notifications
+        onNoticiations: Start Email Notifications
+        paymentDetails: Update Payment Details
+        cancelSubscription: Cancel Subscription
+      accountDetails:
+        heading: Protected Details
+        email: Email
+        currentPassword: Current Password
+        newPassword: New Password
+      userDetails:
+        heading: My Details
+        name: Full Name
+        country: Location
+        language: Language
+      saveBtn: Apply Changes
+      logoutBtn: Logout
+    watchlist:
+      newWatchlist: Create watchlist
+      myWatchlist: My Watchlist
+      inputLabel: Watchlist Name
+      selectWatchlist: Select watchlist
+      subtitle: "Your watchlists are listed by Market Value"
+      empty: "Not watching any stocks yet? Why not \"Explore\" some stocks and add your favorites to a watchlist?"
+      emptyTitle: Explore Stocks
+      shares:
+        single: Share
+        multi: Shares
+  widgets:
+    title: Analysis by Stockflare
+    empty: No Widget Available
+    linkLabel: More Information
+    updated: Updated
+    footer: Powered by Stockflare Limited
+    starRatings:
+      title: Star Rating Analysis
+      profitable:
+        positive:
+          title: Profitable
+          text: Forecast to be profitable this year
+        negative:
+          title: Not Profitable
+          text: Not expected to earn a profit this year
+        empty:
+          title: Profitable?
+          text: No forecasts available
+      dividends:
+        positive:
+          title: Paying Dividends
+          text: Dividends forecast this year, equal to a %n% yield
+        negative:
+          title: No Dividends
+          text: Not expected to pay dividends this year
+        warning:
+          title: Dividends at Risk
+          text: The forecast dividend is higher than forecast earnings
+        empty:
+          title: Dividends?
+          text: No forecasts available
+      growing:
+        positive:
+          title: High Growth
+          text: Forecast to grow this year and grow faster than its peers long-term
+        negative:
+          title: Low Growth
+          text: Not forecast to grow faster than its peers long-term
+        warning:
+          title: Mixed Signals
+          text: Not forecasts to grow in the short term, but expected to grow strongly long-term
+        empty:
+          title: High Growth?
+          text: No forecasts available
+      cheaper:
+        positive:
+          title: Cheap
+          text: "%n% cheaper than it’s peers, who trade at %nx earnings"
+        negative:
+          title: Expensive
+          text: "%n% more expensive than it’s peers, who trade at %nx earnings"
+        empty:
+          title: Profitable?
+          text: No forecasts available
+      recommendation:
+        positive:
+          title: Expert Opinion is Positive
+          text: The consensus recommendation is %n with %n% to the target price
+        negative:
+          title: Expert Opinion is Negative
+          text: The consensus recommendation is %n with %n% to the target price
+        empty:
+          title: Expert Opinion?
+          text: No broker recommendation is available
+    drivingPrice:
+      title: What is Driving the Price?
+      price:
+        text: "%n% Price Change"
+        subtext: calculated over the last month
+      fundamentals:
+        text: Business Fundamentals
+        available: a %n% change in forecast earnings
+        unavailable: Driven by a %n% change in forecast sales
+        empty: no forecasts available
+      sentiment:
+        text: Investor Sentiment
+        available: a %n% change in the PE ratio
+        unavailable: Driven by a %n% change in Price-to-Sales ratio
+        empty: no forecasts available
+    gain:
+      header: "What's it Worth?"
+      title: Estimated long-term gain of %n% per annum
+      subtitle: Based on the consensus broker forecasts
+      empty: No long-term forecast available
+    competitors:
+      title: Largest Competitors
+      empty: no peer available
+  payments:
+    email:
+      trial_will_end:
+        subject: Your Stockflare Plus trial will end soon
+        body: Your trial of Stockflare Plus will be ending in %days days time.  Use the link below to ensure  you keep getting our smart alerts on all your stocks
+        link: Subscribe to Stockflare Plus
+      customer_source_created:
+        subject: Your payment details have been updated
+        body: Your payment details have been updated with a %card_type card ending %ending.  If you are on a free trial your card will not be charged until the trial ends.  You can check your subscription details on your Settings Page.
+        link: View your account settings
+      invoice_payment_failed:
+        subject: Your Stockflare Plus payment has failed
+        body: The payment for your Stockflare Plus subscription has failed.  We will try again in a few days and in the meantime your subscription is still active. You can update your payment details on your Settings page.
+        link: View your account settings
+      payment_succeeded:
+        subject: Payment Receipt for Stockflare Plus
+        body: We have received payment for your Stockflare Plus subscription.  Thank you for using our service.  The payment amount is USD $%amount.  You can check your subscription details on your Setting Page.
+        link: View your account settings
